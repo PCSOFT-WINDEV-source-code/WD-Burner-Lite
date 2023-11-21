@@ -1,0 +1,1818 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_DOCK_BURNER
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_DOCK_BURNER
+ identifier : 0x286e726d0442f088
+ internal_properties : CAAAAAgAAAAUZizZeYb0hvze2S3BQQHfFLJ8Fl05P77TW3FHZ/xRyVd6MfyXJqJER+fGp8QHBLv+7pn5GEtuaCnvAuo823HRC2louoSXR5z/S1pZxyteb7Y+C7heMXcY4jPlisqSVl6KnpPCqbVbrwLCl/yUEnPTHpw5Pv1M5GLGcpwbObEkawIp06HrJ8PXSBiR3YRcmmwuja8wzfBRpP6eiwb8dnaDfE+92m8c063Jm9xT0bWCJw4rXXyjRN/MavpMMazNLzIcnrIGgwia3LpBxhqpkA/WvsB6ZZSyzjia2tiAv6s5GlCqgfmUJgfbzgotjyrd2C/pMt3yLSSMOEVvp0fETxHcjl43vPEmlo0yWLONs6Alybcpwee78qZvN1i0GVndjOf5JAUV48ckHu0MkjtML0hzyDzAANc6iaMYWISq0hsDWwK+SbBaIy1eKHNyhes06pH4glUO/4CmiFUl3b5XFtHkhNEL0gSWhvTZ6/Al/F/Mhd8omL8Oo79d6fi/7t0SwsB0J1aorNz6sXeU4MkA3BX+XyXuieaHNgJyRirlWkOYT04vLUg7zKVpTgADLtO1qn3P9DZ238kzWd8QBO2dwfysm0Qikt+Ir8Oq23ndiW54OJuPbOzqx/FB2WGfhl0SPTVvhnmMN1et5NM9/UMwxalrU1I6MkhHwNLE1Hr7hmGt/ALaJH5QfWsZ1HVJHzDlA/pdxFo9kwZ0oHGbSnQ61gd3USqiVhgL0Z//yoaqNOftIDIspK0E2ZxE8Jhu0CVJJsW9+wuE24YYzQTwyDcSTebDVe95/SpULtMxJCpMYaEnVQUWQXuLX/8IUqasn1Z7Q4z0TRMK305WOpNcYj2S1Y8iDB6f/ggOQKOqqxfW8kee09XeAm7PwgoFd6dseURI92R2Gxc=
+ properties :
+  width : 322
+  height : 275
+  widthClient : 320
+  heightClient : 243
+ controls :
+  -
+    name : IMG_MEDIA_TYPE
+    identifier : 0x286e726d0444f088
+    internal_properties : CAAAAAgAAACs1SgqNYrUTSc90YEx3k42eJ6uo5pzXV3heEnUnghTjrTH0lF9Jrgcx1ArmD9baPkgIDAlo8jKF+m3KGngKpQlsXFmTRd+NS+8znAbwwQxKPvZVzeuE0bIkYRtOtdr3aqN1y9w5sdqbovwuf4vlZt8Xornh1xXclQIGT3PvX4Qz6BXlZ+lmAHksL3g5L5fEPyebndfc7U0hO6dwzADjVWrVrKX8ldOMPhIvxNpqDVII+dww0C5WtFj/yeFmXwwvFRALQVcPRX7Xsh+yZ1ocUVSoLC0WiX841NQqnNLX0XFNQWw9N01wseW+9oY1rrnoDVF/7iXbUFW/U+Af2D4T2GVPtS67ISGGefGNW5OnN/HbWuoTf/atnLrCVmDjjB/7s/RFMwsATXiLRhMiiPvfV8SlxjqvphjVCSG+uXo+QuLJMqCZyDF3CsZtStxS43Jagq8rHi3tuOKHCTd3J3t0ZqdnPCDBH7DZIkbMnw6ctGWXmz2SZitqgzEvo0A0G1K4GjhIK3qOLWTTmQ=
+    properties :
+     x : 270
+     width : 50
+     height : 28
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         // Refreshes
+         GetMediaInfo()
+        type : 18
+  -
+    name : BTN_EJECT_MEDIA
+    identifier : 0x286e726d0445f088
+    internal_properties : CAAAAAgAAABTqP7M9eDdzlEyDcnZ3ydDSZ3lyIn88Sjx/NNLolj5fHWGpLABHFwocGDuvn8WjeGTTjEahGF5uO4uBK/M7gGZB32+Sd6LAO5b3U1quUm9Uh8Npot4Q2wrBTymlmCEgk5QxWezLG5+XMq52LN+X9Jx+uDgCdEMFKoXj8ao6CJ4tGtZtx11wU4rWFpGdLFgziyKUmxLMWyjUVRigUmIIt5dA1xU/S2GVqwn8FOk7nHO+MJL35SsRl4iAX/XTycwkh78P3LnIoOxzvx4chXw9j7Y0kGVrxitRxiAYtJvpo50uXIrQUKM03doxS0WjN9L9lq0nD9WjT81zFghwwImwQF6bY7kqsnWBa7ssGKZQVQeEhCYOFKbs3MZd2piuYeX0yby5Le+uWWXw41FD++E2Exb9SjCen+JyVry5aMQrwgTe7wxCdcHDKBeu/2uOQXxfwtzeaGLAApmFBbs+jpLkrDwnHtDCdZrqmzQ+EiyLhVRrep+JPYu8qZVmaFdlABO+N8FrZzzLsMPJ3F2Qkm7xSIeSBa227gTzVzQHwYPUqQjcMQV0YYd0/7Hjf9PU0u9HOpAkmK65GmZJ1vx1oMTbZJPXKIA6KOZG0aYaOc3mxj0VujONWjWNou60XUt9TpuNQ1h8LtJl9XviVqlGdtsTIBDOYf2s2Pt9eMDDXWcpYEKLVmnuGU5FnPZR6HYHsCwi6FTpRkKcbhCeiNFG0HtJiASAbsKg0XJFHDxuVufQLOUqa66
+    properties :
+     x : 288
+     y : 209
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Reverses the status of the door
+         gbDoorOpened = NOT gbDoorOpened
+         
+         // Ejects the media inserted into the burner or closes the door
+         BurnerEject(gbDoorOpened)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PROGBAR_FILL
+    identifier : 0x286e726d0446f088
+    internal_properties : CAAAAAgAAACGQdFGpE07awwwbofFaX8kmz4OGidFLKEauiCMEcDZmURFuFqapAzR4rNdKJ/c5Y0iZSWVx+Zo9JYaTCSeCX4YdoxxVQJTTKW+RXiVgAwzeCyAy8lEq1Z+2UZsOrbIzzGaNSdmzr+BrbBuXSYSRl0+fXxDPeoN3PURkNQUtkXcl3VuLjLZ5Eib5wJ/8FIK/fFUBuwiuqfkF7p5FVBHu4UAG1CNjYt+Ehjy8UcivwMkXi2qR9nHK16N6F6DTyKcVB9YcNLAayPQxSvkooUvfB0PFHF02QRt6A4GN1dJ9Oxw/cXj0824I6paGYmR8oGeMz0LKo49siBN3KdQqQwxmtHEvACK6zNTDyc7ZUlhUWUBQmN70OVAjU3cV+HjM3usQqUQFDh5dJD01gYnr4QvIhsVlmK1yiMzmYnqjO4mLktheUkz6gWVIru4KMdwb8V1KO/zbCVCrJCdnkOoKUPftTeeSnvkgxZTYvwpfP2W+VfALgLtzEN0kvnru1KSL9eU9oNYLv3Yv90+fUwaEDktU3+lkAk80jaJ88On4vyn+JnZy8dLqRYUKBTql+cv+Gqk7k2l4I3vf9bOuM9Sl9gAZmE56uabm6rcXR0b07uoqn8peI+z9TjlRVKN0y/vjhPOfz3eG7ZwlEBmuiPTpRf5RDDM/G4OG0/IHFMCE1DvfhspAFMiiXo=
+    properties :
+     x : 20
+     y : 30
+     width : 10
+     height : 179
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : IMG_BOX
+    identifier : 0x286e726d0454f088
+    internal_properties : CAAAAAgAAABZGZLH7HlgMPgq/RfbnHRrbUgyGnIS1NQfJ2dQ0Kgx2aD14A2qEA99FNiAsPSuVx1zd/vw4m7fV+gJKyYPKqPMRaDxbP1KkaqEOblSX5x16PGLdLYdtInMP08JpoCfNA0GXxj94iQC7wUoSJtvgO+aTPy+49FIdCiDCTBRK5RR3teXqS9de+kfr2rx2qH7bOGOcMakwgu9ch19fR3CkAr4L2FpHW3H7g4b6G2jyBqzxNQhhWyA2LLaEsN8xzDW17CxUYy0xxYcQRFkfT+/+bM+zZjopnCHbcTbl50jCiKbSr8vonUmxJr0n6Oo8wc6oBMWWOBTh8zVP8TykUD4TdaIEYKVLQIW7JuOr90nBiRlbEwVIYPtSCuMXE/7MLLHbyBAu+044D2cNz/TTTvKVvs/C7HwMauf+t+nAzZAiEjdwvPd6wswVUjZ9MgxU9PDa6Gln0wdWgrjuTKsdy4nhMA6/0BzGj35uh0jV4lxsDCWwIPl/bhn6jnbNIlHVStoLUBgu5YariL/IuExhbtDV9nevLZvEOnGzV6vfndX4w7l9rao2L4DiwFtJasNcf9Ng/sHSgLJvmTqQIkBdrLYx9T05hQF4b0FQg==
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_Selecting_the_burner
+    identifier : 0x286e726d0455f088
+    internal_properties : CAAAAAgAAAAjpPTN5DZm7PIOdhgwTRETQjIUKLYNqnh+tMI1Z3/85mKJZ0Vfj3F9tOjRU14PdYZ7EoFc4eBr7oiuWQA35vX6UXLip7mOcf3TgYVbOMGKnhzn/9DNc2mxOD8LcEXQ2xcPV70YaqU5gqsiW8obZ2O9sshOZ2vLuZCN+8WCY8YtZlRMUHVKGKIWmMnXsRjJv5v27om/4CoUZDAjW48xFvqEsrl7jEcgZQ2w96hOc1kkYdSX3VlA9fOuDmXptl8sk9o8+yvpSJqaRoGtOmkZhJ2/n8ab2aVTGML9tiiFQ8lk+omgKCPEyEHwuog/NlKDSTKPQg8WtKd51HoxKtJunXJ/XuWaEtZM0sWsQ4ZYENGgu9C40CMMtw==
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Several_burners_have_been
+    identifier : 0x286e726d0456f088
+    internal_properties : CAAAAAgAAAD/Rie1LXKELlXWDZR+uIxTAW7Egsh1EeQG36qCH2eyh1gJ7LAl1anMWBVYuqxsACJ05IKz5FT5uyyYiDlz6YotTGqIuTkcCdwBOoDoH3/tuLcy/LY6oa1DiHXeqljlf6i46+rSNvh5HCoyrWLMDCx6M1q73lV5UYAtfnb0RBMqTXlrZrfUVjketz50JMIq+aJ8E8+LPtlxyxkDaqxsFdcDi/+13kjIxANu73a8mNtfhWXDIfQgcb+HyoCkHC6YdU+Ens/67eWXV3OUkRyjN2a1nlvZP0/t8K2SRZsjlt0sEELqmD1L0hYIlxzjt46gdJ6Dv0ChiBLNxtF68oQHlpPQsXddesuh+QRBPVWnHLAo3hL4l64ioD24Oei7wyDREQpRuN7MqtPRic/erjXE1nQb139+YIYvldV4JLvkQlNGF/dWNk42QzEQAW9kgETyCA==
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 51
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : COMBO_BURNER
+    identifier : 0x286e726d0457f088
+    internal_properties : CAAAAAgAAAAFgUTWRh4PnPkufHkHhYUr08aNV65M9HMuWt+85u7KOIV0Cu5q/Kvk0OjfRkmt48RRB6cB769K12zx4Vw7o2oB7/7mA6pjXX9Wb6diQ0+wuiXE3JpPcJHRby6eBEXFNxc6jkUgr6UgeGm/TqXlNoFdVe2SldI862vgmenUZsscWcAZ7YOXZCBzzCZT2W6vDPKOHsqMMWgaoL4Lcmb8nZaOYrNXjlN+h4qGTN7tVhtiHU0Z5BIg1YqP9OV7Uq9HCDbam/tGqD2kLvQ12Bgi666rH0mwQCmQ0R+d3kvDBaaAjjMUG1UqAfSUa5BAR8pd+lIpsoXQ4vXxzyO5u2JLF5O/UczvHYNRKTCKU8l4rONJ8wWYxvF4kdbz2X3EikudtMcrueHxqGBc5jW70DyRU8moLzss8vcClnC7s0dmMVmqXa2jIy9fYZteZbCAxpZ85NFCN1aCqYjQtgXur8ipyq+Fv/K9w5f+kdWpIOPzuyMqDmfxszhLYkzxCDTYGiljdbM2tTAp9Me8eYrDgjQtuPS08bqVZTasIEqyLciIB7lN0ATTBB3Sket+0ynhotrtmTwk1LJ9hO/MdZbW3Eyw3kU1YcLaj7gizT7o8orCJ4kMCs9PHqCpv6mPSs8fu3CihVW6b8q1/blrxAph1S77waEnzf3gECnBwADSZPnudChyE2XhB3RuLoKqidpoqT2jY9ZpQx7S2ewv5B36qVEGQxNhTtC0UthQ7Sp7LyYczkCKB2L8ZOImcPsWJHt/yy96eBzWVe+5eWYI0eH8KsyNETeewp+FoK1533tAWSA+GxFdaE7iVaApYYyxn6I9aXtAKO6JnEG1XsuLC6RYOjPX3tzVltuVf19Ma3fa/4SNRKxdXO5270vktfaJFIStwvcEEU8wehjLUiw11791QXsnmTIP51jkIduRlcOvfV2ZBi6/A587qrFrKXImQ/lPjyTIynQJlUtLgRNN5Zgu6IClm1dKyp1QRcHE2HP75pC5JWi0rnE7k8BekdUlD6hkeIW054F38uTJHlqMpCB9rZvAS4TeKjy556LSv0UX6vr1HPfVWy0YwsuPwVUTfTAJNbQ/pqEfNiEg9LPCkKb55Bdq/9g0L027OosTBbmN6we+hU4NCQ9wokXs5FPnG/t6KkxA625Nj2E+Uznl+UXS6IWWNmEJH7rpMbAXSaRH5GT5iI+cCPdwXXRqvG6SPmNkk92UyfcfDaNveH0Ar8GDf/DJzmaf1mvIQIsScaC5+KgyitRCD/jCw4DYA7ZWZ1k9Zrze2Mb22QnXZ6OsfGdHxTyf6FI=
+    properties :
+     x : 39
+     y : 119
+     width : 242
+     height : 24
+    dropdown :
+     internal_properties : CAAAAAgAAACFUQioy5BZ1VARHRxGM8AeXEg1PwWs3KINPjGgJe3itSz5VUVRsn9eTk8z+ixqKsy9RIHW8Vc36zvEnDDK6AXyEXjAY8rvkLkXV3RZzG27l2l6HHRHWXI990uweubsIVsjFg4/v1ZfGJi33H4qceiqvDwsK0W8+l9pV+Damhd+6AVd8WULfmNsIs8u8TKUj7kq8osoZE0nf6PeyjaNv4mEC7o7leduVoPAXUtGm9VlbwzCYxNXtPhzbI+0Z9jcsapSpvpbgRnX9OvKbOzb/CjNxWvO+hm/lrm2t1dbFEf8RlluMWpazYs7vwsZ666MS9FN7ij1X5tuVlNzuS6w27ezYagEaUG+knY6748lZAwNPXbKMF+YxRiZLy+WrlfLa2nOPL7QlL7bldvH4rPnOGUEbFP2T2jf8KsMQECU5mBCv7Nr7c5m0WGB44cySEWBB8zG6+fEH+4uWj2BUn2ItebXh5hLfoO6blwXSV8P4X7fFvW91Yl94avPY2XXgJVbJy72pTnVcraob/o0DIHWsI9dx6pm
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_VALIDATE_BURNER
+    identifier : 0x286e726d0458f088
+    internal_properties : CAAAAAgAAACkLxZc3LihDnn2WyD35wGo7990WSntnalhygj6H0RgaNVE8t62KwoP1yO/7wDQdgfd4p4piDqZpw8vB42gPSVZKG9zL9gZBWu6XuTVvTu4SoGeUn1zUIbMnozsvnH/duS+qqOSy6Iw9JcWrceDZS959AS3Ei00Oqk4gngpPUrJuiEmq3x291tV2r6q7cbnj67hC/LXzUEVGS7sCqB+RIxc2AG4VmAusm3XAaKMZFCQ29zqpEHplTQyxJ1Z0Jri5chzIXIDPDkLhrMYrABIp04vXq+7g8I+PbMS5X61pjqqctu+PYuNWtZVutWUj0MfnqxkD4p0P9LH22jqXYEBOp2N5SfNmJhid9fttajHuIcJ83hn+FnxnGI0LKZoiO5LjwVkit4BULA9PzUpwHs9eK3LN20XBvi15qdv5KUHTdn55mMSGALegr02bTySjkhSfergu7EO5PKldxx58t94vnQ0W/S3MTDiC2KYJx2Myvdw0INmOm2girabWot0AdjnMV8t4Sjs52SGLoWyFUUgJoyBLRXSlFjV6XOvTuNVTG2xJlKjv27QSuUlLGHfPFk58NBmt0VpHaahmWIPw84GhU3unchMEM7xoZBwMTsuFUeaqCAeW5hoJ+p27AozJom0FZS+65M3Aw==
+    properties :
+     x : 120
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Select the burner
+         IF BurnerSelect(COMBO_BURNER) = True THEN
+         	
+         	// Selected burner
+         	gbBurnerFound = True
+         	gsBurnerPath = BurnerPath()
+         	
+         	// Allows the drag 'n drop of files
+         	ExplorerAccept(True)
+         	
+         	// Enables the management of the event of drag 'n drop
+         	// 0x0233 = WM_DROPFILES
+         	Event(Event_DragAndDropExplorer, MyWindow..Name, 0x0233)		
+         	
+         	// Goes back to the default plane
+         	MyWindow..Plane = 1
+         	
+         	STC_TITLE = "Read..."
+         	
+         	// Retrieves the information about the inserted media
+         	GetMediaInfo()
+         	
+         	// Burn the data only
+         	BurnerMediaType(mediaType_Data)
+         	
+         	GR_HELP..Visible = True
+         	HideHelp()
+         	
+         ELSE
+         	
+         	// Displays the error
+         	Error()	
+         END
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_BOX1
+    identifier : 0x286e726d0459f088
+    internal_properties : CAAAAAgAAABji3MHAX9R0KjR4WiW6yOs24OLgYXc3ULFHejhk7KGvFrwyfcVBDImqxu6NBXs0httz/Z1OhGY0/rzCkK4pYO/U+gitDY8idz8hrcDl1OXJ31yARHnfgsYfephE6wiMNyuwwQDk5vMomQQUysMpOg1WBMzNF4P+nm30hVKjNsiiAjUn6yYctGEBKB4NDN6xlW/kbM/XrYp1Erw06OPTFxPpjcMEWsnenph8+9LhJYdTR1b7eg8UMqhPD1zf952xj8OfAfoesl4si19cKIeIHYV0uLGG6Q6Z/2lxLuSHho4DxkGxdzePnQCTi2pKKBrmsDbUd/ERxzPaecNgGksqNIkqIuWufCNaHSakgENgFN6BjGySgsBXquSppR6ivrpqI79glxhi6V3BhwSg9yIVc+5jbDpf3/awJ+l1WygxJ3P3o0Ysw6Y/QwUgpZk/XzSNY7cLqqkSJSrMb66rwhJq36vtbEKT8myvpcsws1bAgYv4ZVJ/sa0Mg1PkK1BRb0aVM8NWzpKx/cb4o9UlFZJaBIa7lqBldy52WAOlf5DMXe19upggpXFWE932rCzYx06b9DCgwH4PA==
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_Blank_media_required
+    identifier : 0x286e726d045af098
+    internal_properties : CAAAAAgAAABU0n3iVgwv6l99i01LlaNGmEp9VBtHvK0HQY8rnnZnp1OYXyLvyi4dnAScQJDLo7PX4Vrfdvpwy41V3WzVsutfzZI4mxeGf8gBVx2URT8TCS3RffJNCemRpME+MQHssMdaWxAEBR2vDZnHh/HRM92uoRaU3DpGqie9BP1TA3ec2kJvMHTPhx6Ydt+zm1YTfepWqCjAqR1ES1PYtBdBTRn8cu+Ge4kIMxfF9OqflzQaW4cDfo5Ev6T9mcdDSe5Y3o5SItQMhITH7QRTCRT1hHiPMIIl7hCrJ31q+SgAYDLr+xvq9voNEm4qImFskAHRW45btH7NpyLohabSXvZBFvQ/tLKwFuyLbhisdkYXd4aISWo+K2Ste5jxIOpP5BGg4mkF1508MlZaB7iPPHIiB6lqwVbtixjgRdQ=
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_CONTINUE_MEDIA
+    identifier : 0x286e726d045cf098
+    internal_properties : CAAAAAgAAAAkY0Wbwn3McHNHDHO4frlNu7brqj33mSVl7HucBrbTBI4/RQ3P84oej0dco+fI9ufeL+GS+SQE3H14ffOcniNIemMcXxuHOgliIqbJrDXiglB4yPySqJxf7ZosfSExFoNGwjO5O9uAENnVkxbdiR/yPq5a6hYEt9I1sgDDUeR5Nww5GnZSl/rJRHM+f4W41ibwUXuD0df/oW4NGBSagzKGdHME1hN/o1G/tUH6LOH7OkCpf5RQv/aCptWsQjubcV2UGU/h/Oz+/fDzZoT0/mbH2p7Woj5va/uNCx4qwOezxwZS3r92/QawnOIjR8l82EDR6VE7DXzxX6CvwH9tAKNnk2j0UuzWV2lHAic3JBdVAQrGAbG7EgD25uNnTlq1iVncB6WrlArvsUd+W2/1kieBQdLuNnB3gF8DzYRJobO73kcLF1BCJHdWSdUVIC5m/T5AEBxqjnZV94CCVeVipiiSZftM+7j8jYbY+nb6GMWGFnVV499kNPCTRiLFWRKRswe5wj8GD3iG3nnB8jOe3iDHh2oFGJCb15OzD+pddDcTWBgO1RGJlHWzDR8qMALp7qawpriTeoUHdnA3ZnpLsiNAaf98Fj6I5i6ffG2nlgeKSkZ3dw4qL63x4Y4dnSDXpX6JmEVX/3c2d+6jsjuf
+    properties :
+     x : 120
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Closes the door of the burner
+         BurnerEject(False)
+         
+         // Goes back to the initial plane
+         MyWindow..Plane = 1
+         
+         // Wait
+         IMG_HOURGLASS..Animation = True
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_HOURGLASS
+    identifier : 0x286e726d0447f088
+    internal_properties : CAAAAAgAAACKCW/jGM6o+2r03Em/0P5DJzroNeiQXCJ6KIgFLccRNyf9fCnn35abIFkfgYW5hB1/mE3Up8ZEFc6iG23VBM53+Tv75BWoJdtSfqSrPv/fRLnZSF9gXUmvN4pgMviozKy1zukMJDcl95zGs0M3aSy//wad2UYkJiobeaAKr5amDV6//+WndD38QiBbBjYqsJ4Kfpqjx75+RaI/0f25Gj7+nfzIKmEF4ZO3KapFVOD5xAqH//91vUD6j7Lq5TAcjvUnvv6ZfGUNZs4JU0c+IpMvWMvlLnDNHHz0xgXYdMrRNuZPISOUAqpINws9u6nHGYSFm69pPDSPfcri3li+BkO98B/u37p0c8JNtvCwnWZhsWnwUGcT2QhxxSn76WFPHXZqS+6/nQ1ApQr9Xs10TmB5h9Vrd7FhZ9HZYzTeRHsqY0lQSlZhm2dvrb3Al5ThVdJfYzo3OX5tP9CrTz/ahoqSepmno0Hnq1KZbax00fiqC94GwrpCIDnuFqLdzXBLFCUJ80HiLRuJB1LKPRQINNQd+knkXvDjtzsQLmG+fHhwPDDQrPN21Q1xMWvIN0d8yED6E4UX/iUevzxczlHeuMJlVWqvuMXeCekIzGX6VWfd
+    properties :
+     x : 175
+     y : 97
+     width : 47
+     height : 46
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         IMG_HOURGLASS..Animation = True
+        type : 66049
+      -
+        code : |1+
+         
+         IMG_HOURGLASS..Animation = False
+         IMG_HOURGLASS = IMG_HOURGLASS
+        type : 66050
+  -
+    name : STC_MAXSIZE
+    identifier : 0x286e726d0448f088
+    internal_properties : CAAAAAgAAABZJmeY3lyvOtn7mdqB+tWLAJZ7Jp29Hhb8MUj9SFGKxWJasJhgW+lVNL3VcMCzZkYQVsi5UO5LVkfh6QjGgPPwfpVPqTk2rJTo5efBdTA6GE8nJBT6seMkXns72TQJvbd7yCH+k3sYXlQzHOCI+FtObkC603wHQ0NHE1jDoFmv/S8QV+twnvNvwGjhzBth0R2Yi4SVLeAcnDGO5ubHd7ctXrgEg6ERKLYdqiMrVwY9tUJFJC+v7uY5IGHxlXHU0dYufZz95ClUroxvMkJDEanboV2MYUqh5+83TqnHcWu9VYzsX1TJo/MYjQ2A9LnqNsqU+8OFXafpMZY7lkMkaiqDsntEEw==
+    properties :
+     x : 9
+     y : 16
+     width : 41
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_SIZEUSED
+    identifier : 0x286e726d0449f088
+    internal_properties : CAAAAAgAAADayU4gXnqeFqjEONYfons+9ytRbkoVxHwI1YPD2CTGAksi8gB5d404iEVylnItCSmpkMgoj8dXPyVgA8q7CyFnyuoBXJwQERAMFKcTg133RkbWRsUtMkOcvI7Mm8K/fgXIagnu/TzgM5wdKgbrDFDCeOI3xpZG3PdevzwK/8sqnzG3tCr/pcu92LqjldnSfko9//hVhK/13hpuYQy1TPRxRW0YqYjVaZsiA0aBOtlQEs7/CuwvmdjAA0FLGiDIFJo/EagTmJqgCdU0UVavVfmNwaKhYH7EPMrxbKjrLQw47TH1DXHYxRZ3WPCp4Q1PNsCAK5K227sI3c9ZMs/yXXD8FgM+B1cGQQ==
+    properties :
+     x : 9
+     y : 211
+     width : 41
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_To_continue_insert
+    identifier : 0x286e726d045bf098
+    internal_properties : CAAAAAgAAACNU7BxUbZG4ljkV905O4nRnUnmfrH5O41gTxQOowAoMF9nGQnUeOLHp+x9UoZDvYPyDaiXxospwp9SqUcGZAjMKZwgWHJ6buwkZCY5wV2plP8CuSq6kry/9WiatBtRF3dy2zdxme7lZ0iaB3Dsg+Yb3kFnTfzysUKbn9sgIfKHnetFDgMrSx9iYEi1MDrYSzRz4FiGEsohfLPmSPuhgHVMxv1T3PkLypUl6T44TI2EVFVdDYtaiG5Z9dgnGccNtW13JpsIth7sfzLkNHDtkFeRhLZA1vS+ghnuyNVHKLLJLTu9DVxA/YU28iQYp/ShJ4Zvy+Yhxet+1DtpQfxgWom/GqhS4uuDS/TLbhpBw+q/CU0WFYgv7ObH5eefsd0kMzjlsI/D5ltxxxLgoakKZD9OqSCI1g5vcf1GNTuQOgAtN81mbT/nsoUA5aIbXGILH89MKwmh9YdjdAW6Ax1/PT/pYWsz0c19fHYk+3TnMNs/weWCGuSq/XrasJrAxAax
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 101
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_TITLE
+    identifier : 0x286e726d044af088
+    internal_properties : CAAAAAgAAADU1daRXCHyMBcebEcH99jEz+vEd+ovAO1Ztf1ZSDswVxGjidP97sDEpf8xZ5gU4U929J85PGZo2JYnrdQYZ2jTTcPn8YvDKbajwQUJ1T7ZbesGET+jyXfG3ObkjmXymex4pXODCc/Y2Pn/R6o4mZ4STwxHUVF9j3eqk28MDUms7MPsvbDdk/APEf09g4Mb2Vy3bVIdiKb7R7DHym/I6Z/i1Iy/je+qGALF4W4GzWeXC1uliJKhXWbEXjArcolaNiSXbXCSGKEDkgkq6ti1Di2kpKl8lD+w7Af/qRFcagjqeyNo+wwy7N1tqXFDZoYK5SKrcahMuIfO
+    properties :
+     x : 32
+     y : 97
+     width : 120
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STA_INFO
+    identifier : 0x286e726d044bf088
+    internal_properties : CAAAAAgAAAA4t87nzKDTNsYu6JPvYkhTx28WM/oa0JnTdejn2m7QtMypQTfsSNnEFAx+VoDTfvW0DmGNKPjfM9e0jiGA9lMyZT5keYZqOKT3yp1XYQqO60fhB5FNwaxK88JZztpREszfwZmPkQPaHlREHfWgZTrymWio3m8wL6bm9PHZd1SjBGjgrOr/+kYqTJp/KpFIxC6j4LDBNGwn/W6gVqSwwyHnw7eGWg/oNHgD5T/Bwbf0p1HraHpkCcB6qZIjh30aXK0w8GbC//kg2CBEcAlHsyHbdi6JZ9i+Eh+IJkd50Wc/jfKVNCCmNb/K6b/XqOzA5oxlSckiSZsnregBKQ==
+    properties :
+     x : 32
+     y : 116
+     width : 120
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : IMG_ANIMDVD
+    identifier : 0x286e726d0443f088
+    internal_properties : CAAAAAgAAABNEd6C9ZGojMNalYx/2EvHpXfdIGPtlq6wC34S5rOivxdHNOwwESkTuTyH3fq5QScwoXmVeqn8W7o/SxOE1YC2DE/DrvDJRfsypElXAv2Jgkrly2+lVMkWzhYtxtLiGShP+XtesOXxLfvLiuvEM2jDvoAC3UFhO2OBBQZUhTlOwZsE5PvJBrDQd1W5UGp8KQrWHzIH6xmAs3u4W0i0fCkQtdDRVFI0pn7yZThNaprfxiT9GyU7JeFROuwNYGRew5bToMOUBihWgFWXoNXPDRqr1wyhyO13Jw+d9NpDzdvKcZrPf2WATBj5RgpRlLmZBrnxz66hX08yL3ZrgJXBfQqxwzrG/i3rEAsBdh3nNgw/hV63NhS/oKLn86HgT6gSFzxCgRWEGUAH5E+fEgbKeOPK6WlPeyT4ncrIMDaYNdUxyxwZavFvofStLqSWaQr/kj5whBbu1KvDL9zW05xL2zJPizA4lmZ2cKBcogvWZiGGACbWnN17hEJQ75pEJPQp1kwGCT4RWCotRLZnQM1j5QGkXThX+uupPhaoyhpiNinMkt/jYzjQZFwclZWdwWYHEBRDCeVLxStgajFp5C4leTOQ6l+Z7fuAy1Nvhw==
+    properties :
+     x : 85
+     y : 6
+     width : 227
+     height : 226
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_BURN
+    identifier : 0x286e726d044cf088
+    internal_properties : CAAAAAgAAADHdw1lmcZWNx+/fxPPbEhzT5Ku7Eu1/rrsq5BJ7zd0KbD16TDqirk2lX1a8HxIPKSApEhoUXMYm6GZXmwE8m4nOsEvjb6oa9Bz22kjBtA/qiFolZWFnvX3f5BBnqFpZZ81l+rhxJQD6IzpqetSFm5SN5YQ7sTp3/gOPgE72hOxtUVwkQwWD9Y+2o2pBkl0xs0OkjJvJFHvxlc4tidF481/cPgm3OkJ+sW18KQRlhDToVfZugM4Q0XNzPjhVzGtJZZVbmBP8ohYHRpq5/aytXVCjW3yqUeP25svaq5td1H5vJ5mabS7n6OVHCmH9IUBgPXBRCryItfpVI2LOyPjWTtdexCtNO6J/jVhUM8WnwLY7f0x3zlPP4rrkipIfdI2Fv7/+oAreW18RRayNLu/rWlGC0p0oNtqdWy2pjMJux3/hvarwsUmA+jCPev4u7hVFJhvZbq15Um3Sl2D8mungLj59NJQwn2kGSaNhMaFXk7nV/zyXoHPzTOBhrYV9/yNTLR0GZ0c/X7pl7wEZUVk1v/gJqFJkyQ/HLCmbNj/gmLYcr81BY2NxGZLrjLZYK8Bed8EIXUI+MkDl5jQKUTn+3YiRb8dKFXebFroAE4FZC8e86qpZ4Y21w1+Ohoj9qryXmN+tRQMU52rfeMXhe56gWWIgCLvghG+x5DemcUgXVOhTtguIDsAPqui+ciS1aCChvNpJnLuI+UCgm74ZzKlUi29vCJPTXksWNfRO2SduTScPxIHWVX24ab78Tf+EgcUjm6ZLD0CKKyfhW8=
+    properties :
+     x : 165
+     y : 88
+     width : 66
+     height : 66
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         IF gbMediaFound = False THEN
+         	
+         	// Opens the burner door
+         	BurnerEject(True)
+         	
+         	// Waits for a media
+         	MyWindow..Plane = 3
+         	RETURN
+         	
+         END
+         
+         // No file to burn
+         IF gsListFiles = "" THEN
+         	
+         	Warning("No file to burn")
+         	RETURN
+         END
+         
+         BTN_BURN..State = Grayed
+         Multitask()
+         
+         // End of detection
+         fDetectRemovableStorage("")
+         
+         IMG_ANIMDVD..Visible 	= True
+         IMG_ANIMDVD..Animation 	= True
+         BTN_EJECT_MEDIA..State = Grayed
+         BTN_MEDIA_NAME..State 	= Grayed
+         BTN_LIST_FILES..State= Grayed
+         BTN_ADD_FILE..State = Grayed
+         IMG_MEDIA_TYPE..State 	= Inactive
+         
+         nBurnOptions is int
+         IF InTestMode() THEN
+         	
+         	// In test mode: simulate the burn process
+         	nBurnOptions = burnerSimulate
+         END
+         
+         // Eject automatically at the end of burn
+         nBurnOptions += burnerAutoEject
+         
+         // Starts the burn (eject the media at the end of burn
+         IF BurnerSave(nBurnOptions, Event_BurnInProgress) THEN
+         	
+         	// Clears the list of files
+         	gsListFiles			= ""	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : PROGBAR_BURN
+    identifier : 0x286e726d044df088
+    internal_properties : CAAAAAgAAADWbdva04vL+r+PpwQJMd6XNMCweltEh3obyHDOLDH+EdrEyk1rvPBznKFGcpg7BPY6oC33TgaEY3mXPDjYeQ12z8cRdjXaprhtl3nfvLM/WSu5nzPZM/vaXVndsQmvvYF0RNAL5Q8HVO7pW+djnClC2iRDT/H1bW1o/t3cAYtUX7lY00Up45oVe/1orxvVhLg56Lbyc43uakhsNiY2Au2c2Q0ZgBcL4cPiSGYix5Ngpn8UbASaX9qoOn91JpIkGh/7DXnpVPqNjxJsVI+d6LfoDv9H6AFUFk8TQyocZvejr6dCci+a7x8CuEzWVbAwi2Yi+3uXp8CEwi6O3dHvQ/Tt4K63AiHVIRQE+kR9Tqrpo/Dgj3cJEy0bH8N1ZGwpJva+5SqUx3ZChIhfbMlBan+ZTfV9iN7RiltXX80uLWOOiIcBGXiHXi6Z+6Z1rggcNbAO9k0Ec/fpDBXXTRZnfDlMlQNvxiSbZUL+WUEBSat6PUCe2dOGa+lxydFAGYsqPxcHLvoxnam4GZpvxWa5z5qcdbk/lrn1HOiBWCe3fRajw5Y6UeDl/VPpgCwzwq0yN51K4Wm7W4S8NfojjB3oq9yGmSTo7Q36F9TeULU4J1dgsWlXVuWF4EqquJh6zbXFV1WbAbN/zj/04V6+CKhHfwSgH3+U81Jf7toBchFLaPTpVwjWvEj+LHswKv83
+    properties :
+     x : 32
+     y : 132
+     width : 120
+     height : 14
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : BTN_LIST_FILES
+    identifier : 0x286e726d044ef088
+    internal_properties : CAAAAAgAAAADpUehGxqTypBQ59HMhS6MgvBgkKzvpfKCeQrT7/6j/NowZ1IIFbFFn3Gr/mtJJbzMG62K4TIH/hZjTGXjuwVPzerWWOCuC0cANwGNsd1FVijAa7v/ao8EzWRQKWWy4FM0hgYjvKqdnCVtMq/CzcXpMO4k1aKqAL1IdBMGS/fE+KER6tfRnrz7du+hW/uLYdEEc/+PxfdQ4FB4wuxpyoPQaAq9roN3L84m14Oxf/Ryj6g9tyOHNt323pDQgb8unuYOvz/qYbg26Hdch/navQuILGcGrFsW1pLc49fPxrs2yeqhaIAT14X0rQupPyGiKRhxrgfAO6GYW/W8E+aDQsDln9oGAk+GkcLJPS26Wd4t8ZxwRxirkgyw7AiirG5BpNunlrObH0EpwGgaLyHfYwG6jlVD/ovDE1N5NZI10KAci3JNyo24RY3MMqCoythQ4ODcAGUY9ICeX/7VizAFFJqFMfCV2hLmYdm02WeXPdif4mmDI/IiQWDW/ymC+sBcFqPNx5O6+vhuk7E5am2YTco7fX0a5NhER7IiMuHQqwq2fX9hVDksVXxlQh5xPD4XN8DDVrtw1+FFpElIHRhvNlO/OdOuUDFEsYokSaaqk7vZDv5k1LdtI8Zzocw9yG4Sb/w3lXvqh3XDiOHJqDANc8JtLV75ONxjsayqXjkVO8xQqk1sI1u5R5vpaeKXwhkM6Stw/K9RoyAKBQOXMyUGckXRkHhg42h8e0kptcgRlkoy0xU/TnFNR5A=
+    properties :
+     x : 59
+     y : 178
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABZcJgJpQtomZNYyZP80H6l9hACuEOIWhFbzCLIhLM33/yhFS0KuZ8bNCu8QbPmNa7Dx83Lpm+MH4KHi4jJvfvO8FzKoF+0cgDICedaCs6hOFZ7HmYotBId8PlI8FQahZ9oFHOHycxAu9GzjjWQ1dv3bi2nedNej+fqj/XI7dvWVQ==
+        code : |1-
+         
+         // Empty list
+         IF gsListFiles = "" THEN
+         	
+         	Info("No files to burn")
+         	RETURN	
+         END
+         
+         HourGlass(True)
+         TreeDeleteAll(TREE_LISTFILES)
+         
+         sFile is string
+         sType	 is string
+         sVolume	 is string = BurnerVolumeName()
+         sList	 is string
+         sElement is string
+         sDir	 is string
+         
+         TreeAdd(TREE_LISTFILES, sVolume, "\images\cd.gif", "\images\cd.gif")
+         
+         // For each file of the list
+         FOR EACH string sFile of gsListFiles SEPARATED BY CR
+         	
+         	// Extracts the type (file or directory)
+         	sType = ExtractString(sFile, 1, "\")
+         	
+         	SWITCH sType
+         	
+         		// Directory
+         		CASE "ROW"
+         			
+         			// Extracts the name of the directory
+         			sDir 	 = ExtractString(ExtractString(sFile, 1, TAB), 2, "\")
+         			sFile = ExtractString(sFile, 2, TAB)
+         			
+         			// Retrieves the list of files/directories
+         			sList = fListFile(sFile + ["\"] + "*.*", frRecursive)
+         			
+         			FOR EACH string sElement of sList SEPARATED BY CR
+         				
+         				// Extracts the name of the element
+         				sElement = ExtractString(sElement, 2, sFile + ["\"])
+         				
+         				// Adds the file to the treeview
+         				TreeAdd(TREE_LISTFILES, sVolume + TAB + sDir + TAB + Replace(sElement, "\", TAB), "\images\file.gif", "\images\file.gif")
+         				
+         			END
+         			
+         		// File
+         		CASE "FIL"
+         			
+         			// Extracts the name of the file
+         			sFile = ExtractString(sFile, 2, "\")
+         			
+         			// Adds the file to the treeview
+         			TreeAdd(TREE_LISTFILES, sVolume + TAB + sFile, "\images\file.gif", "\images\file.gif")
+         			
+         	END
+         	
+         END
+         
+         // Expands the root
+         TreeExpand(TREE_LISTFILES, sVolume)
+         
+         HourGlass(False)
+         
+         AnimationPrepare(MyWindow)
+         
+         // Displays the plane containing the list of files
+         MyWindow..Plane = 5
+         MyWindow..Height = 400
+         
+         // Moves the window up if it cannot be entirely displayed
+         IF MyWindow..Y + MyWindow..Height > SysYRes - 40 THEN
+         	MyWindow..Y = SysYRes() - 40 - MyWindow..Height
+         END
+         
+         AnimationPlay(1)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_MEDIA_NAME
+    identifier : 0x286e726d044ff088
+    internal_properties : CAAAAAgAAADZwqGpASPlOvXcmX6hhstBqFri/DcrbTkublr6dwkDqJKQ1liUVLmvs77DH45aWRqEDLBHCDGpwLARnqNXxN5D0KRiSQIiTK76zW2RXn99STIl/5cDoC3X4CuWo8idIZMdWB0KRDYXHCrwCUtK8BLHNQNpuBtEJPH0EY+WXmBvpPas/0B1gRyCzlpFdE4vjXpOqboBdG0Ted0Jmfvrfg4o1civAzbzQ6VELHQW3+zm/3bIqntlhuDADCduISL7AJ7Nwbg0Y0yn60w2GsiSb1cJNyCIoagXtafjVksZcNb3qxooToJ6gIqrjwbsyBezXjrz9fOsdnWNhilnizp4DPXRiQCNLD4AhSPQiVpzMImqcgHZDifpcoXOMPuEQc6vSeC2D5i30oXIczPo/x5hDw7fSSwGUAIdtuCu61KoitwnRoNcrTE/P6A9twSmscy2qWV/RZ68WwCfcmH1ZblbIMP0yhfgaIUKLsDDpQ30o2qYP5ubB7d+wID8PfSfspV/2hNRx3eVYkFi1duwX6spPBAfHQ8I2XiTdQiQD/SIVvku0+npACY8gJRJiveYQjUCUZLJ1gWByfQP+KFthSdp7L4jq9ngffLRQyKoi0qbq/+vFEzTY1LtlA7D/ETvLq+6D3TSJhD0FaUjmtcGjtIQUA+pnkGwpMxDYfXxDGWGszrjDuwcTOZhU4Ddcq9nhx3UFhOBzQR1H0+dPjS+aGmtu+qbnPA864OMjHjpZHSAxrac8DMH0Er+
+    properties :
+     x : 34
+     y : 178
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Retrieves the name of the volume
+         EDT_VOLUME = BurnerVolumeName()
+         
+         // Displays the plane for modifying the name of the volume
+         MyWindow..Plane = 4
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_BOX2
+    identifier : 0x286e726d045df098
+    internal_properties : CAAAAAgAAADlzlZzHxjmRo98qpND+sEekkdPMoU56OGoZVRdJBHL3xxPHjNaPBSWSgKrD1T+HzqOUyGj4Eqa8YxM82B6FGDj/Ha6qyI30VyQmR4sn3earmGdbfiL6fnNlRsApOLcA8w9yt6BztMvXExEq/jw8gguFRzXz2eCzRcsVsIsCVpO+VBZEtxjHvkuBW8QKjLfgzMVZCc8Ko0j3j4EoPqHS+/0pMS7byLjMn3fVr8ViLtQLqdByoTFNUWiuvjfNtjlxVJSJ5GhwAQiUuG3ut3/ukgNz12BgHsiTarMJn4i8OYdiB6G9fQY5UeAc4JuKFIw8FOcf/I+7rZx3uDrzOQ3Fzz0aatpMIXktj4l9bmMrPB1REismcWv13hf4CYzFHoWCqzsBvpNv27g4czSfJRVAcgU8SVXMqmfbVZP0ACKLnQUqz4vkGOtfSAyVVoiCZyVv26lEFbWIknE+8cUGtaQyiL9v9vPdRp324SONLJXrYyQtlFglrRfizGdjGqghVRjyoHIm59s1+dASf1U9/NdlPmH/AndGD2FpbFKYLAZnM+iz3ad9E/VHe1v7hGn/4mm5Eh6eUdLSMrsbQ==
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_To_rename_the_media
+    identifier : 0x286e726d045ef098
+    internal_properties : CAAAAAgAAADqVBAEmMpDKssoAVn0dnzdlpc4EqVfHtg6Rz9jbQW4fXnbzP4gmD7aY9Lx1U/UTSpT2G3pxXHAM597VMvqeeB8N9/pSmvDPPRPXaL8Cany+727l1T58heGHKMZoqOpE/SxD31j7ngjXGS2Iig4xpRTLjzhgC9aKeNsN2P/QkIbhZ7T7u/mc0JFAJu9n8IT9/WaulSELX1n5vuFb1nIZFmU8QH3BPNfRu261MJRUOCZ+xu8cipdvDCb583Fp4z/CNxXpqiwatos0NvmZ+YedCGNgYUdGjQMJtBXmeTK8fx6rVVjRTzhSD0AAJ13FfYnsA+8kl75efOYYYuKBN0heCew8JiRAS3QHyEN23Kqhh3f7/jJ3oHopCOLYIVUUHmWxCuYuzEf2yxTGoQ/th2SpkfAWmFm4+7r+9e3q5MqZpcmXUSFSQ==
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 53
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Name_of_volume
+    identifier : 0x286e726d045ff098
+    internal_properties : CAAAAAgAAACZ7P1Dyzf0tMtM6ZB29MQUD+O9N/77UrAnUdQZnCtOgN97qdx0c67xVUuD7/Z/JTSGLJlwjFh9pZjQ8n4yPKsK/VOBscC4cOpMh8JXsV5fBurJzDmCyLv8z8wPLDw8liI/LcvVH2qZVmcCWwEchRnm4LPTbLfgFK9l6c9mw5KXDCgQovy6/QHqPmrbIP1adrIIDV1SRCm5GYzYIDLg0WZmHQyt537nnvc2V7UOyoMJJl2o/a9DEQKblgM5T1eqTmbejUy9oCVb9/UQUR9yegGzafodcNEuA9kYJbCbvcDZ5rOrgRerbqgf2bej02ifYhrP0nqsLvz8nRR2yzBZQFxDvP8kHUdjzszKhHnv0SMZPHlJkFc=
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_CONTINUE_MEDIA1
+    identifier : 0x286e726d0460f098
+    internal_properties : CAAAAAgAAABO9Q8WZD1F18oDBNuPopr5GL5Xz9+f46p1D3ztNVfFGY9puxhnXKW4Idp2XwUhyhYGKBUnMYMDRZzLfw9ZSOveHlUEaxup1aNX7OVDcMSkQ660rVNpC4TvtEBXGea2L8S/gGHifTOHLd+l1g4nfaOXF6Le8igSe16Ipb+ZBZM+s+nJl5DKugWbyuJ5VfYHEiYlY1coEO+3Qp7kP4Gq18SD2l7f3uR9o5KNqwLILFX/1d+m4PM0ctXHO4PqABm/T1ZJiCnNEUFw6YTfc9PQm7+JxR8WnAyj+BKs/Hh3whHQfRW8HaVegnSVsAz/jtYfyZT2q9soQFFijw/7u7MmoWD47/NqvqToEpN4iQ8G+O/ZIDwZfDAeMxafJ0m0vjTYwWPWHUcmdJojh7jeJ49iR3KNkUwdKrBkf0XlFCzG12jaBp2sMt7UltgO2B591Kw+RHeG9Oqact9xVvjmX16WAOvYbWtJy1PgMNYqSTuYdHxxo+snqRSzJJbaEBuoNgllW6Nz1lRrjakSU/QTm79eRMoeebaj37UWatAyamJOSla6fkNupnn7L1bLXMaIZNNuFMWsUkddaWRcuPo9zzvbac5uNSkhuA3NDu3EWJR4lnu0NK65a6N6nG5zHweZz/a3hg5midc4kjd9O650TvOll9DEe78=
+    properties :
+     x : 77
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Modifies the name of the volume
+         BurnerVolumeName(EDT_VOLUME)
+         
+         // Goes back to the initial plane
+         MyWindow..Plane = 1
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_VOLUME
+    identifier : 0x286e726d0461f098
+    internal_properties : CAAAAAgAAADo3FK/8NloILidK0aasLpXSLjn4ZiJ10mdMHIm8VVeVvbhqNcHefKVSQzCAMxNNa675kpp4jHwGrTp6YLVHKzVknLWHO+DQeovuqFYRH9ObJTCPviBQJYxIs9093Oox2VCHuN1UUP5PBXn+uKdCURv93bWUBP+y6wK+Zvc1neTRTLrAIyf2SWP4GAtJ6QdUKK6awCX9+bujVy4Bxc8dnBOTajBcLxMP5z2Ary98CcIS197ciAIhKhTMVtr43vHST9TMTa1OArpUDjeNb72vjQmNx77M5DUdeIUMv2Zq1BDUkaFjdVkDErIX8h2UhlWii5VK4l+EeSayIsLXYyO9C1TjwZaCoY5ZD4xDPVlg2PNmiPMCpKI8jNIwKZ+CCeibvnNpYUgUNVaxk4XG8QZX5cc13Oinkf+wdHb4xu25Tv2hpNp3MzdANR5tjrNbYx+FfjH1YrD03w7akjMwdPy9GmJIDeurQ8bEauCtfZcUb89kLcu2p6rvoJY1stabz46KB9cj0nKNHGOjvcB4VD5PMRfl3RWj3glbp9Z5UFZ09PrRzQMFE/e6RDMc0omIR2xHhEG1GOOXTYIxMZAZgv1D1rrsAyKhQjWZ2UwdDUDnxutXTPBfshqw+K9EQSn7vLkayLDYOSszArmA6irVRAZ4F8oW+5qD/LaxqpA
+    properties :
+     x : 39
+     y : 120
+     width : 242
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_CONTINUE_MEDIA2
+    identifier : 0x286e726d0462f098
+    internal_properties : CAAAAAgAAAA3uAnXynHuEaaf52vfSxtfpK+t5Qz5zF3QJ67LtBbDfH3Z1yUqXhadw0iAYR3ZuLco/xbgUtuz4XsEUD6lZOXVT8nMtsPtppkzYTsSVDpPpKXqbyJtB48Ek7aictPLGZAeTNI11asDJXd95DYdLkkT1kBsUoiWf62Dxvxw+7XEqrReWglopl45jwBZrF9PSlQlLltoAQunhggaB6Y1YekGGzNtDPoadtmoekdEIT4TDKY4BnvBzM5rIN2lzfoVTOG4hKjCj4HpAihejwSQxWAv3DOYemcYPPtGtRE3gWmMMt6rCB/Tk0TRbRMp297GpMBB933GMAdzVqdeWscb+LH0ZhwTNmfKw27yG/OmPMLCyKz/bqSI/Q1a45m6JY3TEpg1Q6JhmCEQWBC4c1sea8QmDXLW/0yq5K8KmUlW1WwRj3g4C5vTzFgWgYHCt1aaKei0OsD58UsHNhN4NGXBKOb0OJEtMcJfl4t/TU9N63vYJZPoDvabJzZOMpVnUQqZjZwB7EHKBecwPbD8WE9Q2iUHHzXTw9mL/i2dfZkDUoUVI/T7dqlTB5hobNaxAGidmoi+YlZaWfJkAIf4EXnHbUE3gYBxtpprGL74I7uP7iKBkw4MX1kskBuC/Ow2J1L9aXcBwKJpz7E/evVd
+    properties :
+     x : 163
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Goes back to the initial plane
+         MyWindow..Plane = 1
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_BOX3
+    identifier : 0x286e726d0463f098
+    internal_properties : CAAAAAgAAABWyNwJE3EB1Th/F0b10czQi/Bc5sykuwX4g5O8pQfiGfkiQqrt8CNApJu+CVei/smlQcFzCFnO49KoXk+8Hc33r/b7ptdf2a1T/74zQcvgt6W5b30AlJHglICpf384h1FpCMFzC0PDb/zp9tSIieo6V7bkbSr2C7uvAiQOWpUFWettkBHdV+HOofdR6J0WKmmZQ5eA/AoJCYixStk4LPCy4cjclvnjaWgcbJxYZJnGjPyHtC+xkoqsSCGn84Pt3hWHHZ4u8WvOTCDcpuEmCwGfqmE9/lMzpmvMeSaMiszwIw4uM7gqLuHRb4NcY2nZMAPNr8ZKk/HSr99JvprNLSHCyaRHIRT+Bq+8bh+lsroo4cP00QXK0XYWwxlQi3zSpNWFnbzzotwx2fH9GkQKJBOpd1DftmosXtrYD9pQlA0j9W11y75XVZuAmppUm7p0ze7EntN/v8nmQKy166vo+qiCpxigAp2Lzz2XtpsnI6+SnSeJmLSOPjbZ/C9BYavVaBRo8ffRwXU2hrU971TsWViYuHR8j4P3OoKye4NPnCB6isb1sbX4+spuzzceAi20DlJOkF/1bZBSSOKFTvLKQlzvUxdD78vvVaP3WjUVO/7KHT3F
+    properties :
+     width : 320
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : STC_List_of_files_to
+    identifier : 0x286e726d0464f098
+    internal_properties : CAAAAAgAAABbz8mj5jvYn6noQk96ANUyXcCzz+5aaHTuo/WGi3D4ufDQspcEco7fYYtmMrBvCNI4eTuesEOLqu+jo/X/vxkK8qXHuXqba67oaIdEsrfnKQspaw6wrpFEB66exC9E1jd+kG3bu0Kb+5MO8qZ2pqPTlgVrOkmijcgk8PECnt8FbLsY5nrZIJX3Xd7bK5+gZ4FEouHIuw1EPdRInpaPb/9dhfO3nXsRNa0EtUGPsMXfarT73SHSJ8qcMlOveSp/7chlyW8Jf3/Eo5T2YcD0Yd7BpKBWUU+pubAbEk5piLOxArbHVORx9J+DX4gUmvLL5V9uB8zi/WZCf+lM/VIAcv24WjkDiIxRpyYKpwUuYDExmCbvj2rlgWtxy0/Z
+    properties :
+     x : 29
+     y : 36
+     width : 263
+     height : 170
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : TREE_LISTFILES
+    identifier : 0x286e726d0465f098
+    internal_properties : CAAAAAgAAABNlvdelP4zSXl/YJx+LVcaiE73KlidCCYDHSJYye3v5WBCfNeJ1wgtPc57y0LEjoL5P25RjVL2mzfKggoeclJRkRcAzzZ2rpay2kCTEtMWbZ03H/1tftbyUnE1co9wgflHmb/4Kh5Po0bfrC/eW3m+R77e4htKjCAVPX3GJrOSTlbSiGqQDwYuy2vuXHZPZ4BTWBUHFh1JbmFdBs2liRy0gsV0598c5AqHc5i+B2dn9+0rcyMNMmhA9yC9gQVNjWehSuHPHl5oExVOy/iJzPwehZVe1Mp14s5JNWkh5DSTDTjIqULcTXqOaEE/+u2bRlRzG6KsavK1HxJ0S7NbaY4MDJVk/5UGIzWy8qqDVEyHQNxiLk8dxOYeXy28/8fsxuhfNH/BYJWh7pmVDrzZ87psg5NZGIC7IeAWh/0eN1bmOZz/pA0NW1RfV15/FEQqrxx+a0gKbAv50zWUquXBkhJ/7mS3tLzrq8qirzMfmABiGCdFIG8VHNxLn06RxaCQ81Kh68gYFeymbAGGAVJtRxOiPqOxtr3UXVyy3hWD5r+N5vxfHjzK3SPbGSBWuq38J3Wd5L2LncYoOTL1YERbwhdez58aNJ+bnbCBJiVIiLaxA4oFkI4aNQ8a/+4CuzphKogSn7W4ObamDYuiczFdPO9U2DTmWmbljmvwjhnUMRekGaFS9mb3vEVriJQpQiSveMKQLViCDq/8lWn6Ejqw9ladQ84Deku+52jA3EMBYGKoXQDtY5mjnzFxQTh4jo05WzvDn6KvxltG/MGFbqHsUzZap0UXAclu81cXKyZyzRKYeGkIyiOHeKB6I/o16o/gGmb7DD9H4J09ncdFbYjN0S0YkHos7yiZ+I/NM+2QE95eZYgvoEgqLUeGByGIyrkUd4RjyHlX/F0WGV7jf1vnWuZdmKEabYkmYlcNkHaITcyiN83jZp+lkR1ugvMaOzMOtpAiWXzeag==
+    properties :
+     x : 39
+     y : 67
+     width : 242
+     height : 103
+    type : 19
+    code_elements :
+     type_code : 25
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_CONTINUE_MEDIA3
+    identifier : 0x286e726d0466f098
+    internal_properties : CAAAAAgAAAAKlIMwqI5X54xQ6/CCypiRClev92NFR5Ctxe+MRC/7i22SkUrSuzVGDGO3NEmZ6sk8TAolh4jBaPoQw5P4jF7YYzgP1aAFrcufIb/i5x5ayCBCidhIgzPKOGwXFHI6tb1fm3V9xyO8UZiRL4bsjL4B3CRPUFc4pRPesshqi4MDLN1A6MOo4ZMShL/zx9UnKr0CuM0isWxBvJInOJhDPjSD/g7MS9wwvZAlExNRl+ThAz8Ug6kr65ESiPd0LEjIDVPNr3IWe8HDT5TlZymjkN2uHIHea94fVsIZ6b2JJemzeS2gDyQJ8SXJ6CzetOG+P6TjpQvzKQ1aHYvNrchDxqv4QNr4Y1lY0je4TKTRDD2WfdR268mtFEQ4d/4bUAXhtexGLjJxOEdQxtdaCFpima83dlvu17+L3jVi3sy/DNAm77liVstjCGQuQ3oFw0/gzCeL9jaEkA0hNsotv7s4cGBeFyYE5M0+bmFNX+mTCqcQqEaaOaYWSmRmj/XlQ8oGK0oT0BBT3/9SWIze8zGULiuoCpkuEDAw6/ltth4IGxNVNEjP7R1bjsNekrAgbDUdMROuhsZ2S89KkDSz0Vfnm4D1Wfhhv0H+9gT4+TzKg3SEo2DfmkM8YNJU6NjKP5aYNJsG5C9psvIj4g==
+    properties :
+     x : 77
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         AnimationPrepare(MyWindow)
+         
+         // Goes back to the initial plane
+         MyWindow..Height = MyWindow..InitialHeight
+         MyWindow..Plane = 1
+         
+         AnimationPlay(1)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CONTINUE_MEDIA4
+    identifier : 0x286e726d0467f098
+    internal_properties : CAAAAAgAAABLuyMK08MVBb2yW1hN7byImmZjAeadJhVTAtgoIo4d6wngzKCyWketA9M41PrrDUnkQCT4nAfvMJoDay4i0ySc3fU9FM9ulz0fvkfecSEuKJbTa4ZkV+1WCekb3viu/B9+a5/n/iXtJhlR4V+bgB20dX+BHQwhTlCgc8pUFbtCXdNwoUvf9pqwM72HlakU0DCVO16mbDMrut2ez4ot2tXtOO76Y2/1z8JGOx2TtJfL96ccFTCVT2zp7RY+GXxJ4/hnlqvCaIqZLutl9N6WhE2/0ASzh3J2U1F3NgOwgvzt5bM/LxhfJrrXK8SlpVlR8VRxhPQtuIsr60O9jmCKjLE5uqAOEMNBBAGYWRpngw2dHuIpsm6JVOY7+d0/TX3DfVUppyga6uUap6mDYvN/bq6Oa1BwM8NSHfy7AH1EtLIW9RFRIi024ULc34OX91wIV7xQZsRXNnSQ0EDUghIk5IRPLvhNMILQlH7ymeRWS+XPHFeRNAZcpf1T5WQrohUJyir0X52vyWzDESC/iLFANNFeBq8G8zUWzlolnChzqXjjhLL3f2Ah90dQHhNZlwzAK5AVT4pD07bVQgIsiQPtfxDTCgp3RuOIRkmi0Fmp3C1w+AuIsOAAZ5UyetNsN50BGGOgV7qbyreAHgz2hDhsNTS2ZALJFu2PIwnj
+    properties :
+     x : 162
+     y : 174
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Clears the list
+         gsListFiles = ""
+         TreeDeleteAll(TREE_LISTFILES)
+         
+         // Cancels the compilation
+         BurnerCancel()
+         
+         // Reset the progress bar
+         Event_FillingProgressBar(0)
+         
+         AnimationPrepare(MyWindow)
+         
+         // Goes back to the initial plane
+         MyWindow..Height = MyWindow..InitialHeight
+         MyWindow..Plane = 1
+         
+         AnimationPlay(1)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ADD_FILE
+    identifier : 0x286e726d0450f088
+    internal_properties : CAAAAAgAAABW1X84RiPNif304Qn2sZd5xn/AmjHKPeZGQOBqf+uD8Go3JCLgdShLor3frKuE387IISwt4yf6aCPpUBZA3vHVEvTcHGmxBaA3dp0BHZuu4QS090D7CcjbwvK7SAeTgA3+CCZNt1P/Y2Lg1Q5DffEc0p6pBFu99H+pbkbSzQb5M0KH100CnzuuTdK2Hxcdwm8ATvLtXte2ZAsTaxHRqnPl/w0KH8TAuO017OQiUcKaCc2arGiGpcrXR9Y2erqiBYoAfnfvsk8/NhUh/0DnQN3U3aB5s0wNQMz+eVoRKMttgCJJhihQOeIr3KgpBiCp1oQIM5bXTeXoDl8FwFlBW6mtk7LpGmBQvwmLgZozb54DCPiMSIB6KQecIdCDO+38T88YwkcEX3hwcK806DRWSnhkS8/1YXX6HjOee/+s43nZ97fp3nTuCmjes9C/Z6WX03yFZLG1YmfhjUXpsGcA628nOugNl0ZLvC+rXRKgHn0WVAMslOoTb1wFTXT8PCLOpkrHHEi0Y27wiq/U3F+O86KyEdovUg8AAwPM+1PCpbbAVvuSNS2PDToQ2OWv4sDhKQkjwRY0bLUIGHAenDnk7ebcBW5oCVyOjxnHJosXxKaI3Jd0zkGx7RmtqqkDIqrr9F427L0xa4h/f4hCQFynVb0zark0TXlZbo/PllABFzyUK4Z/TLLvtStdiScdS21+feTVuHe6vVjTffXyPS7t2g==
+    properties :
+     x : 34
+     y : 46
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         sSelectionList is string
+         sSelectionList = fSelect("", "", "Select a file...", "All files (*.*)"+TAB+"*.*", "*", fselOpen+fselExist+fselMulti)
+         
+         IF sSelectionList <> "" THEN
+         	
+         	// Adds the files
+         	Event_DragAndDropExplorer(False, sSelectionList)
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_HELPBCKGRD
+    identifier : 0x286e726d0451f088
+    internal_properties : CAAAAAgAAABHhpE0whHhN8nkeUTJhUaefs0G1fU2IJ9q4+gMlHRVfcv5kjwQ41VxC+nm0QKGtWxTxDh2MnuHi21FsW2wdoPLLsOmr99KpP+ETx0wHfEscX7MFEgMlEb/I/d3EFwKaArZrXe7zOGmTNuhq/K7kA3Z+vHBO/NPUBacufjXAN5vvMls1N5Ju3oex3cY+iFf/IS6oIMYw6rkevbrmw/gRpHcv6EsQ/vkNMik8WIau0GU/r+Ou+dYH9m8cDuaQc4XrWciPsOJM9n4WUd8X+WhrehMINiL1xvmHJDhOcmSTc0SEQKFEP60WfjnDda4yxl6Yd+2WXtdC6BGErefsCiz4msMNsDj3I84K766XTA0yN1pr/PPAbSVueGj8FZ+erAIQ5NIbGoQNyu+dp0Bnxe+xPnNeamsCuNAV8G0uaBEtduTggMGSuNt8DyAOOpCRq/z3keQZ2LL5tcCW3uN4FzauUzbgx/nQB410k+nVlTYXlcfJWCc2+tfZ1YdIy1KMLIfHJPzU9xKsGstRT2e9gSSizhX91nthxhms4Q9T+gx1rs+PAZTau8xDKIJd4jh1Y4VCORtGBq/dEzqkZYNSKeqbXvgsIwjazpPKMM9n/GiIsb14UudMyKqscv+ao9dIFQ=
+    properties :
+     x : 89
+     y : 103
+     width : 200
+     height : 100
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         GR_HELP..Visible = False
+        type : 18
+  -
+    name : STC_To_simplify
+    identifier : 0x286e726d0452f088
+    internal_properties : CAAAAAgAAADSMM6zfJevzbkrc0W2qBiwE/S3MaAC7MrOSq3ZwaphuVohTQh6G40iAkzyPRKvuNGGxwT/CSsTAVytIhDCnUcqbWFRCbNrCmqSZqBrXHu9Redi3nYYDP0C0aczhxCrGpQHOaVAwWzmrfrfkkijF2emApVDdhrBTHN4/H7fYKoDvmcR9gwPEu58K/zUEw1xFqYYvOBUwHBsURYzraDTtXlkipEW41Xrv4jzLfBGg3g9wX3DICxZzSQU63PxY5i99NN1HfOMkn6vWKKp4eBsipPsa12s5it5ghboxK2TCNrDgPm7IblbxAJNb0KjC28I7MFpZky6R9tFOUsHL75WOZqWKJ5bkQOm0LmqtqwFdFqXWKmvRhkA99GRHskVCkaMGiZzW1PiDXWrUgfHZlLchKdxQnGGUp7JJHmOQfGQbCUxb+N1VhAm+6J4NNdjJ1Jw3UP32+U/FOnw0BibVYc/dIPcQN/efpZbcGKySUSXLiRUxOadxB87SC0HHTes72le
+    properties :
+     x : 96
+     y : 130
+     width : 184
+     height : 66
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_SIMULATION
+    identifier : 0x286e726d0453f088
+    internal_properties : CAAAAAgAAACLC1hrJMqdtV//9yLeGWNQzv90iY14uobjq2Gq7aPzn00kP0mmzNihWs8QjYYhOJEqa0bYOU6CsDGLIUFI20emi59Fjet17GCrht2dtAQ9ODcLF9/+QjiMADj24esaLgQbZ3wabUdJK05gBvKjAOi5d6GsNkgcUwy8R6ZbyzQKl/C6no1QAseZ5wbGjgYr74ZuG/wQ7tQmQh/1BzYn+IKMk+pdju2hE/R+LEQ3AMsuW9g2cYKerVwvMaKDvsw8hAERHs1lIXiG+6j2OrEGuJ3gb0w700JLVq7e9SgSU8+86QY74knA9/ksvQwVJdIQe/iDMOUIZAlD8tju1cMJPtoleBdJxiIXaqbjPKrE+J8=
+    properties :
+     x : 149
+     y : 18
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ menu :
+  name : _Menu
+  identifier : 0x284fd2131be432b2
+  internal_properties : CAAAAAgAAAC9auouxN3CiS1UHy69pCHJU2hPQP5aPrxDpuMd+folLnKLDclr4k04UVuUGa0eBjiUure/514NXQqvoA3kcE+ZfkAwZN5wuqf91stOSc7rrooKBe5p25+yGTrLtIh9cUvTSVwZqbm0iR8jS067DZVsr/rbKIf2qwSw5b0tai1hxqUFZkxL3IAJ4aLbMzxeRNbeYxe2gATNFCMeY38BgMEzxLp73ck14CZ1r43ovvpL1z80OL3aUfeKHbCfihfJqrDOO8iqc+h05HVbYos4EhHCLmjs/KDqmIik3JDNSn0=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADAMMaV1eqYeRILJ50hR0tdyk5qYw5yvL4lml4IdoeThJcg4wBHzxE7CAZsviHyEaT8d/n+7J35Fql24V4skdafo0WipT9qOWF76hGVsdPuFdQBUxkO9ByxiPucBw==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADVn7D7T8GUwpXWc9yQ+46fVQdWoL7rD1c1VE9yvCGJCZei0CT1Lp2dtnUTWuBOM6TFSLgYJh7vI+cOTa6HWTXNxHjxHHgxIWPJq19V5aOfczJoMXAxNGt6+WkKxc46irkYYFQiTbYgINb4KXI=
+     code : |1-
+      
+      GR_HELP..Visible = False
+      
+      gbDoorOpened 		is boolean = False		// Door of the burner (closed by default)
+      gbBurnerFound 	is boolean = False		// Status of burner
+      gbMediaFound		is boolean = False		// Media found in the drive
+      gnTotalSize		is 8-byte int			// Total size of media
+      gnSizeUsed	is 8-byte int			// Total size used
+      gnCompilationSize	is 8-byte int			// Total size of compilation
+      gnSizeLeads		is int				// Size of header blocks for compilation
+      gnMediaType			is int				// Type of inserted media
+      gsListFiles		is string				// List of files for compilation
+      gsBurnerPath		is string 				// Burner Path
+      TH_Added			is boolean				// Variable used by the functions for adding files/directories
+      TH_AddInProgress		is boolean				// Variable used by the functions for adding files/directories
+      
+      
+      // Manages the event for inserting a CDROM
+      Event(Event_CDInsertion, "*.*", "INSERTION_CDROM")
+      
+      // Manages the event for the end of burn
+      Event(Event_EndOfBurn, "*.*", "END_BURN")
+      
+      // In test mode, the burn process is simulated
+      IF InTestMode() THEN
+      	MyWindow..Title += " - Simulation mode"
+      	STC_SIMULATION..Visible = True
+      ELSE
+      	STC_SIMULATION..Visible = False
+      END
+   -
+     code : |1-
+      
+      // Positions the window at the bottom of the screen
+      MyWindow..X = SysXRes - MyWindow..Width - CoordinateEditorToScreen(10)
+      MyWindow..Y = SysYRes - MyWindow..Height - CoordinateEditorToScreen(40)
+      
+      // Retrieves the characteristics
+      GetBurnerInfo()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : GetMediaType
+     internal_properties : CAAAAAgAAACmXmVWAOY6WGwBmlBIUBMhN3JObuzBFj9SNYTxlri//QP3hypPqiG2u3Gvo5bFkUHGWS7veOWd1Qh071Bg6fR/vHqxz3FWPH9fd3AvQjd2bHiUv37MWA/5xERTaYuSylZZ38MwD+vnaW4YT46IeMZssryXq09BaDoebCpSuuYtang9biLBMkBdxKPKjC0tcsIOx+xXsOI1
+     procedure_id : 1760470316835401864
+     type_code : 14
+     code : |1+
+      // Summary: Displays the type of media inserted into the burner
+      // Syntax:
+      //GetMediaType ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //// Automatic process of errors:   run the block of code CASE ERROR
+      //
+      
+      PROCEDURE GetMediaType()
+      
+      // The burner must be inactive
+      IF GetBurnerStatus() <> burnerInactive THEN RETURN
+      
+      // Stores the type of media
+      gnMediaType = BurnerMediaInfo(mediaFormat)
+      
+      // According to the type of inserted media
+      SWITCH gnMediaType
+      
+      	// Blu-Ray disk
+      	CASE mediaFormat_BD_R, mediaFormat_BD_RE, mediaFormat_BD_ROM
+      		
+      		// 'Blu-ray' icon
+      		IMG_MEDIA_TYPE = "\images\type-bluray.png"
+      		IMG_MEDIA_TYPE..MouseCursor = curSystemHand
+      		IMG_MEDIA_TYPE..ToolTip = "Blu-Ray disk"
+      		
+      		// Modifies the background image of the window
+      		MyWindow..BackgroundImage = "\images\burner-ready.png"
+      		gbMediaFound = True
+      		BTN_BURN..State = Active
+      		
+      		BurnerVolumeName("BR-" + Today)
+      		
+      	// DVD disk
+      	CASE mediaFormat_DVD_R_HD, mediaFormat_DVD_RAM, mediaFormat_DVD_RAM_HD, mediaFormat_DVD_ROM, mediaFormat_DVD_ROM_HD, mediaFormat_DVDminusR, ...
+      		mediaFormat_DVDminusR_DL, mediaFormat_DVDminusRW, mediaFormat_DVDplusR, mediaFormat_DVDplusR_DL, mediaFormat_DVDplusRW, mediaFormat_DVDplusRW_DL
+      		
+      		// 'DVD' icon
+      		IMG_MEDIA_TYPE = "\images\type-dvd.png"
+      		IMG_MEDIA_TYPE..MouseCursor = curSystemHand
+      		IMG_MEDIA_TYPE..ToolTip = "DVD disk"
+      		
+      		// Modifies the background image of the window
+      		MyWindow..BackgroundImage = "\images\burner-ready.png"		
+      		gbMediaFound = True	
+      		BTN_BURN..State = Active
+      		
+      		BurnerVolumeName("DVD-" + Today)
+      		
+      	// CD disk
+      	CASE mediaFormat_R, mediaFormat_RW
+      		
+      		// Checks whether it is an Audio CD
+      		IF BurnerMediaInfo(mediaType) = mediaType_CDDA_CDROM THEN
+      			
+      			// 'CD-a' icon
+      			IMG_MEDIA_TYPE = "\images\type-cda.png"				
+      		ELSE
+      			
+      			// 'CD' icon
+      			IMG_MEDIA_TYPE = "\images\type-cd.png"	
+      		END
+      		
+      		// Modifies the cursor
+      		IMG_MEDIA_TYPE..MouseCursor = curSystemHand
+      		IMG_MEDIA_TYPE..ToolTip = "Compact-Disk"
+      		
+      		// Modifies the background image of the window
+      		MyWindow..BackgroundImage = "\images\burner-ready.png"
+      		gbMediaFound = True
+      		BTN_BURN..State = Active
+      		
+      		BurnerVolumeName("CD-" + Today)
+      		
+      	// Type of disk unknown or unusable
+      	OTHER CASE
+      		
+      		// No specific icon
+      		IMG_MEDIA_TYPE = ""
+      		IMG_MEDIA_TYPE..MouseCursor = curArrow
+      		IMG_MEDIA_TYPE..ToolTip = ""
+      		
+      		// Modifies the background image of the window
+      		MyWindow..BackgroundImage = "\images\burner-empty.png"		
+      		gbMediaFound = False
+      		BTN_BURN..State = Grayed
+      		
+      		// Opens the burner door
+      		BurnerEject(True)
+      		
+      		MyWindow..Plane = 3
+      END
+     type : 458752
+   -
+     name : GetMediaInfo
+     procedure_id : 1760470316835467400
+     type_code : 14
+     code : |1+
+      // Summary: Retrieves information about the inserted media
+      // Syntax:
+      //GetMediaInfo ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE GetMediaInfo()
+      
+      nBurnerStatus is int
+      
+      // Retrieves the status of the burner
+      nBurnerStatus = GetBurnerStatus()
+      
+      // The burner must not be currently used
+      IF nBurnerStatus <> burnerInactive THEN
+      	
+      	// The ejection is not allowed
+      	BTN_EJECT_MEDIA..State = Grayed
+      	BTN_LIST_FILES..State = Grayed
+      	BTN_MEDIA_NAME..State = Grayed
+      	BTN_ADD_FILE..State = Grayed
+      	
+      	// No filling
+      	Event_FillingProgressBar(0)
+      	
+      	// No specific icon
+      	IMG_MEDIA_TYPE = ""
+      	IMG_MEDIA_TYPE..MouseCursor = curArrow
+      	
+      	gbMediaFound = False	
+      ELSE
+      	
+      	////
+      	HourGlass(True)
+      	IMG_HOURGLASS..Animation = True
+      	
+      	// Displays the type (CD, DVD or Blu-Ray)
+      	GetMediaType()
+      	
+      	nSizeMax is 8-byte int
+      	nSizeUsed	is 8-byte int
+      	
+      	// Retrieves the maximum size (in blocks) of the inserted media
+      	nSizeMax = BurnerMediaInfo(mediaTotalSize)
+      	
+      	// Retrieves the size used (in blocks) of the inserted media
+      	nSizeUsed = BurnerMediaInfo(mediaSizeUsed)
+      	nSizeUsed = Max(0, nSizeUsed)
+      	
+      	// Case of CD-a
+      	IF nSizeMax <= 0 THEN
+      		
+      		// Define a default size for the CD-a
+      		// 2 048 bytes per block
+      		//	  75 blocks per second
+      		//    60 seconds per minute
+      		//    74 minutes per CD
+      		// -------------------------
+      		// 681 984 000 bytes (i.e. ~650 MB)
+      		nSizeMax = 75 * 60 * 74
+      	END
+      	
+      	// Retrieves the total size in bytes
+      	nSizeMax = 2048 * nSizeMax
+      	
+      	// Retrieves the size used in bytes
+      	nSizeUsed = 2048 * nSizeUsed
+      	
+      	// Retrieves the size of headers
+      	gnSizeLeads   = Val(BurnerCompilationInfo(compilationBlocksUsed)) * Val(BurnerCompilationInfo(compilationBlockSize))
+      	
+      	// Keeps the sizes
+      	gnTotalSize 		= nSizeMax
+      	gnSizeUsed	= nSizeUsed
+      	
+      	// Actual filling		
+      	Event_FillingProgressBar(nSizeUsed, nSizeMax)
+      	
+      	// Displays the max size
+      	STC_MAXSIZE = fSizeFormat(gnTotalSize)
+      	
+      	// The ejection is allowed
+      	BTN_EJECT_MEDIA..State = Active
+      	BTN_LIST_FILES..State = Active
+      	BTN_MEDIA_NAME..State = Active
+      	BTN_ADD_FILE..State = Active
+      	
+      	IMG_HOURGLASS..Animation = False
+      	HourGlass(False)
+      	////
+      END
+     type : 458752
+   -
+     name : Event_DragAndDropExplorer
+     procedure_id : 1760470316835532936
+     type_code : 14
+     code : |1-
+      // Summary: Manages the drag 'n drop of files from the explorer
+      // Syntax:
+      //Event_DragAndDropExplorer ( [<bFromExplorer> is boolean [, <sListFiles> is string]])
+      //
+      // Parameters:
+      //	bFromExplorer (boolean - default value=1): <specify the role of bFromExplorer>
+      //	sListFiles (ANSI string - default value=""): <specify the role of sListFiles>
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE Event_DragAndDropExplorer(LOCAL bFromExplorer is boolean = True, LOCAL sListFiles is string = "")
+      
+      nNbFilesDropped 		is int
+      sFile				is string
+      nFileSize			is 8-byte int
+      sListErrors			is string
+      
+      // No media, no burner, exit
+      IF gbMediaFound = False _OR_ gbBurnerFound = False THEN
+      	RETURN
+      END
+      
+      HourGlass(True)
+      
+      STC_TITLE = "Adding data..."
+      
+      IMG_HOURGLASS..Animation = True
+      
+      // Retrieves the number of files
+      IF bFromExplorer THEN
+      	nNbFilesDropped = ExplorerRetrieve(_EVE.wParam)
+      ELSE
+      	nNbFilesDropped = StringCount(sListFiles, CR) + 1
+      END
+      
+      // Retrieves the files
+      FOR i = 1 _TO_ nNbFilesDropped
+      	
+      	// Retrieves the path of the file
+      	IF bFromExplorer THEN
+      		sFile = ExplorerRetrieve(_EVE.wParam, i)
+      	ELSE
+      		sFile = ExtractString(sListFiles, i, CR)
+      	END
+      	
+      	// Checks whether it is a file or a directory
+      	IF fDirectoryExist(sFile + ["\"]) = True THEN
+      		
+      		// Retrieves the size of the directory
+      		nFileSize = fDirSize(sFile, frRecursive)
+      		
+      		// Checks whether the addition of the directory will not overflow the size of the media
+      		IF CheckCompilationSize(nFileSize) = True THEN
+      			
+      			STA_INFO = sFile
+      			
+      			// It's a directory, we must take all the files found in it
+      			TH_AddInProgress = True
+      			TH_BurnerAddDirectory(sFile, burnerRecursiveAddition + burnerInterruptibleAddition) 
+      			
+      			// Waits for the end of the addition
+      			WHILE TH_AddInProgress
+      				ThreadPause(50)
+      			END
+      			
+      			IF TH_Added THEN
+      				
+      				// Fills the list of files
+      				gsListFiles += [CR] + "DIR\" + ExtractString(sFile, lastRank, "\") + TAB + sFile
+      				
+      				// Fills the progress bar used for filling
+      				Event_FillingProgressBar(nFileSize)
+      				
+      				// Fills the size of the compilation			
+      				gnCompilationSize = BurnerCompilationInfo(compilationBlocksUsed)	
+      				
+      				// Adds the other files/directories
+      				CONTINUE
+      			END
+      			
+      		END
+      		
+      		// If the check failed or if the directory addition failed
+      		// Fills the history of errors	
+      		sListErrors += [CR] + StringBuild("Unable to add the directory <[%sFile%]>: The size of this directory (%1) is too important therefore it cannot be added (available space: %2)", fSizeFormat(nFileSize), fSizeFormat(gnTotalSize - (gnSizeUsed + gnCompilationSize)))
+      		
+      	ELSE
+      		// Retrieves the size of the file
+      		nFileSize = fSize(sFile)
+      		
+      		// Checks whether the addition of the file will not overflow the size of the media
+      		IF CheckCompilationSize(nFileSize) = True THEN
+      			
+      			STA_INFO = sFile
+      			
+      			// It's a file, add it to the list
+      			TH_AddInProgress = True
+      			TH_BurnerAddFile(sFile)
+      			
+      			// Waits for the end of the addition
+      			WHILE TH_AddInProgress
+      				ThreadPause(50)
+      			END
+      			
+      			// If the file was successfully added
+      			IF TH_Added THEN
+      				
+      				// Fills the list of files
+      				gsListFiles += [CR] + "FILE_LIST\" + fExtractPath(sFile, fFileName+fExtension)
+      				
+      				// Fills the progress bar used for filling
+      				Event_FillingProgressBar(nFileSize)
+      				
+      				// Fills the size of the compilation			
+      				gnCompilationSize += nFileSize
+      				
+      				// Adds the other files/directories
+      				CONTINUE
+      			END
+      			
+      		END
+      		
+      		// If the check failed or if the directory addition failed
+      		// Fills the history of errors	
+      		sListErrors += [CR] + StringBuild("Unable to add the file <[%sFile%]>: The size of this file (%1) is too important therefore it cannot be added (available space: %2)", fSizeFormat(nFileSize), fSizeFormat(gnTotalSize - (gnSizeUsed + gnCompilationSize)))
+      		
+      	END
+      END
+      
+      IMG_HOURGLASS..Animation = False
+      IMG_HOURGLASS = IMG_HOURGLASS	
+      HourGlass(False)
+      
+      STC_TITLE = "Ready"
+      STA_INFO  = ""
+      
+      // Errors occurred
+      IF sListErrors <> "" THEN
+      	
+      	// Displays the errors
+      	Error(sListErrors)
+      END	
+     type : 458752
+   -
+     name : GetBurnerInfo
+     procedure_id : 1760470316835598472
+     type_code : 14
+     code : |1-
+      // Summary: Retrieves information about the burner
+      // Syntax:
+      //GetBurnerInfo ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE GetBurnerInfo()
+      
+      sListBurners 	is string
+      sBurner	  	is string
+      sIdentifier	is string
+      sBurnerName		is string
+      
+      STC_TITLE = "Initialization..."
+      
+      // Retrieves the list of burners installed
+      sListBurners = BurnerList(True)
+      
+      // Browses the list of burners
+      FOR EACH string sBurner of sListBurners SEPARATED BY CR
+      	
+      	// Extracts the identifier of the burner
+      	sIdentifier = ExtractString(sBurner, 1)
+      	
+      	// Extracts the name of the burner
+      	sBurnerName = ExtractString(sBurner, 2) + [" "] + ExtractString(sBurner, 3)
+      	
+      	ListAdd(COMBO_BURNER, gLink(sIdentifier) + sBurnerName)		
+      END
+      
+      STC_TITLE = "Selecting the burner..."
+      
+      // If a single burner is found, select it automatically
+      IF COMBO_BURNER..Occurrence = 1 THEN
+      	
+      	// Selects the first burner
+      	ListSelectPlus(COMBO_BURNER, 1)
+      	BurnerSelect(COMBO_BURNER)
+      	
+      	// Automates the burner selection
+      	ExecuteProcess(BTN_VALIDATE_BURNER, trtClick)
+      	
+      	// If no burner is found
+      ELSE IF COMBO_BURNER..Occurrence = 0 THEN
+      	
+      	// The ejection is not allowed
+      	BTN_EJECT_MEDIA..State = Grayed
+      	BTN_LIST_FILES..State = Grayed
+      	BTN_MEDIA_NAME..State = Grayed
+      	BTN_ADD_FILE..State = Grayed
+      	
+      	// No filling
+      	Event_FillingProgressBar(0)
+      	
+      	// No specific icon
+      	IMG_MEDIA_TYPE = ""
+      	IMG_MEDIA_TYPE..MouseCursor = curArrow
+      	
+      	// No burner
+      	gbBurnerFound = False
+      	
+      	// Displays an error
+      	Error("No burner is installed on this computer")				
+      	RETURN
+      	
+      	// Display the list of burners
+      ELSE
+      	
+      	// Displays the first plane of the window used to select the burner to use
+      	MyWindow..Plane = 2
+      	ComboOpen(COMBO_BURNER)
+      END
+      
+      // Enables the detection of media insertion into the drives
+      fDetectRemovableStorage(Event_DetectCDInsertion)
+      
+      END :
+      STC_TITLE = "Ready"
+     type : 458752
+   -
+     name : Event_DetectCDInsertion
+     procedure_id : 1760470316835664008
+     type_code : 14
+     code : |1-
+      // Summary: Manages the insertion of a CD
+      // Syntax:
+      //Event_DetectCDInsertion (<sDriveLetter> is string, <nActionType> is int)
+      //
+      // Parameters:
+      //	sDriveLetter (string): <specify the role of sDriveLetter>
+      //	nActionType (integer): <specify the role of nActionType>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Event_DetectCDInsertion(LOCAL sDriveLetter is string, nActionType is int)
+      
+      
+      
+      // Processes the insertion event only if it is a CD-ROM drive or a burner
+      IF fDriveInfo(sDriveLetter, fdDriveType) <> fdCDRom THEN RETURN
+      
+      // If the drive is not the one of the burner, do not process the event
+      IF NOT gsBurnerPath [= sDriveLetter THEN RETURN
+      
+      // Manages the insertion event
+      // (Use PostMessage to run the CDInsertion procedure; indeed, the insertion event being received in a process parallel to the application, 
+      // the status of the burner cannot be retrieved. Therefore, PostMessage must be used to inform the main process of the application)
+      PostMessage(Handle(), "INSERTION_CDROM", nActionType, 0)
+     type : 458752
+   -
+     name : GetBurnerStatus
+     procedure_id : 1760470316835729544
+     type_code : 14
+     code : |1-
+      // Summary: Tries to retrieve the status of the burner
+      // Syntax:
+      //[ <Result> = ] GetBurnerStatus ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	integer: Status of the burner
+      //
+      PROCEDURE GetBurnerStatus()
+      
+      nBurnerStatus is int
+      nNbAttempts	 is int
+      
+      // Selects the current burner
+      BurnerSelect(COMBO_BURNER)
+      
+      // Retrieves the status of the burner
+      nBurnerStatus = BurnerStatus()
+      
+      HourGlass(True)
+      IMG_HOURGLASS..Animation = True
+      
+      // If a temporary error occurs
+      WHILE nBurnerStatus = -1 _AND_ nNbAttempts <= 3
+      	
+      	// Increases the number of attempts		
+      	nNbAttempts ++
+      	
+      	// Lets the system perform its own operations
+      	Multitask(-100)
+      	
+      	// Retrieves the status of the burner
+      	nBurnerStatus = BurnerStatus()
+      END
+      
+      IMG_HOURGLASS..Animation = False
+      IMG_HOURGLASS = IMG_HOURGLASS
+      
+      HourGlass(False)
+      
+      RESULT nBurnerStatus
+     type : 458752
+   -
+     name : Event_CDInsertion
+     procedure_id : 1760470316835795080
+     type_code : 14
+     code : |1-
+      // Summary: Manages the insertion event
+      // Syntax:
+      //[ <Result> = ] Event_CDInsertion ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True
+      //
+      PROCEDURE Event_CDInsertion()
+      
+      nActionType is int = _EVE.wParam
+      
+      // The media was inserted into the drive
+      IF nActionType = RemovableStorageInserted THEN
+      	
+      	// Retrieves the information about the inserted media
+      	GetMediaInfo()		
+      	
+      	// Goes back to the first plane
+      	MyWindow..Plane = 1		
+      	
+      	// End of wait
+      	IMG_HOURGLASS..Animation = False		
+      	
+      ELSE
+      	
+      	// No specific icon
+      	IMG_MEDIA_TYPE = ""
+      	IMG_MEDIA_TYPE..MouseCursor = curArrow
+      	
+      	// Modifies the background image of the window
+      	MyWindow..BackgroundImage = "\images\burner-empty.png"		
+      	
+      	// No media found in the drive
+      	gbMediaFound = False
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : CheckCompilationSize
+     internal_properties : CAAAAAgAAABslwhuugADsYrKZ1XKdkvid5RUjApTJX4wWtQ1tRyK6waTMYTBkjB9IBg6+M6WNQ5s3Lz1tg6105gULa4k5Aw9twj6ImxKb2oGXupoStv0Z3RJJ8+7nCE+yueCfLFSrJEhgBedYhfD/A7J5GOino9yC3kNhJ6LTvX+u3r081/NQLwGMJTdnAPemjc539Lagx5QtkE81/w=
+     procedure_id : 1760470316835860616
+     type_code : 14
+     code : |1-
+      // Summary: Checks whether limit size is not exceeded
+      // Syntax:
+      //[ <Result> = ] CheckCompilationSize (<nFileSize> is int)
+      //
+      // Parameters:
+      //	nFileSize (integer): Size of the file to add
+      // Return value:
+      // 	boolean: True if the limit size is not exceeded, False otherwise
+      //
+      PROCEDURE CheckCompilationSize(LOCAL nFileSize is int)
+      
+      // Size of compilation + Size currently used on the media + Size of file or directory <= Total size available on the media - Size of header blocks
+      IF (gnCompilationSize + gnSizeUsed + nFileSize) < (gnTotalSize - gnSizeLeads) THEN
+      	
+      	// The limit size is not exceeded
+      	RESULT True		
+      ELSE
+      	
+      	// The limit size is exceeded
+      	RESULT False
+      END
+     type : 458752
+   -
+     name : Event_FillingProgressBar
+     procedure_id : 1760470316835926152
+     type_code : 14
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //Event_FillingProgressBar (<nAdd> [, <nTotal>])
+      //
+      // Parameters:
+      //	nAdd: <specify the role of nAdd>
+      //	nTotal: <specify the role of nTotal>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Event_FillingProgressBar(LOCAL nAdd, LOCAL nTotal = PROGBAR_FILL..MaxValue)
+      
+      nPercentageUsed is int
+      nSizeOccupied		is 8-byte int
+      
+      // Modifies the upper bound
+      IF nTotal <> PROGBAR_FILL..MaxValue THEN
+      	PROGBAR_FILL..MaxValue = nTotal
+      END
+      
+      // Fills the progress bar
+      IF nAdd = 0 THEN
+      	PROGBAR_FILL = 0
+      ELSE
+      	PROGBAR_FILL += nAdd		
+      END	
+      
+      // Retrieves the space occupied (real)
+      nSizeOccupied = Val(BurnerCompilationInfo(compilationBlocksUsed)) * Val(BurnerCompilationInfo(compilationBlockSize))
+      
+      // Displays the size used (without the headers)
+      STC_SIZEUSED = fSizeFormat(PROGBAR_FILL)
+      
+      // Calculates the percentage of disk use
+      nPercentageUsed = (nSizeOccupied * 100 / nTotal)
+      
+      nColor  is int = RGB(134, 227, 134)
+      
+      // Decrements the color according to the percentage
+      nColor = HSL(ColorHue(nColor) * Max(0, (100 - (nPercentageUsed + modulo(nPercentageUsed, 10)))) / 100, 50, ColorSaturation(nColor) + modulo(nColor, 10))
+      
+      // Modifies the color of the caption (green: space ok, and becomes more and more red as the space is becoming insufficient)
+      STC_SIZEUSED..Color = nColor
+      
+      WinRedraw()
+     type : 458752
+   -
+     name : TH_BurnerAddFile
+     internal_properties : CAAAAAgAAAC4irx2GRdTb938NGaZ/Pcb9uyJqugrv6sDAP5dUR1odLotw6Z4t7dRGT2/FjdOPKZTPMI5vb4R5cSgU7TjkAgCkdHX0d4zOPffTk/DDwL+cKBQX2HquTuL9rd4GWq19pBf45sP1Q4Hb9xT1Jy5Vxt7pUZr2EcQnvQa4/hJStwlgSwj3AKEa92Hxgd3wj/h9Jul6SglHQ==
+     procedure_id : 1760470316835991688
+     type_code : 14
+     code : |1-
+      // Summary: Adds a file to the compilation (in a secondary thread)
+      // Syntax:
+      //TH_BurnerAddFile (<sFile> is string)
+      //
+      // Parameters:
+      //	sFile (string): File that must be added to the compilation
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE TH_BurnerAddFile(LOCAL sFile is string)
+      
+      TH_Added = False
+      
+      // Adds the file to the compilation
+      TH_Added = BurnerAddFile(sFile)
+      
+      // End of addition
+      TH_AddInProgress = False
+     type : 458752
+   -
+     name : TH_BurnerAddDirectory
+     internal_properties : CAAAAAgAAAC4irx2GZdTb938NGaZ/Pcb9uyJqugrv6sDAP5dUR1odLotw6Z4t7dRGT2/FjdOPKZTPMI5vb4R5cSgU7TjkAgCkdHX0d4zOPffTs9Dj4J+8CDQ3+FqObsLdjf4meo1dhDfYxuPVY6H71zTVBw515v7JcbrWMeQHnSaY3jJylylAayjXIIE610HRof3Qr9hdJul6SglHQ==
+     procedure_id : 1760470316836057224
+     type_code : 14
+     code : |1-
+      // Summary: Adds a directory to the compilation in a secondary thread
+      // Syntax:
+      //TH_BurnerAddDirectory (<sDirectory> is string [, <nOptions> is int])
+      //
+      // Parameters:
+      //	sDirectory (string): Directory that must be added to the compilation
+      //	nOptions (integer - default value=2): Options for the addition
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE TH_BurnerAddDirectory(LOCAL sDirectory is string, LOCAL nOptions is int = burnerRecursiveAddition)
+      
+      TH_Added = False
+      
+      // Adds the directory to the compilation
+      TH_Added = BurnerAddDirectory(sDirectory, nOptions)
+      
+      // End of addition
+      TH_AddInProgress = False
+     type : 458752
+   -
+     name : Event_BurnInProgress
+     procedure_id : 1760470316836122760
+     type_code : 14
+     code : |1-
+      // Summary: Manages the burn event
+      // Syntax:
+      //Event_BurnInProgress (<nEvent> is int [, <sEventMessage> [, ...]])
+      //
+      // Parameters:
+      //	nEvent (integer): Event
+      //	sEventMessage (default value=""): Message that must be associated with the event
+      // 	<*>: Other data of the event
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Event_BurnInProgress(LOCAL nEvent is int, LOCAL sEventMessage = "", *)
+      
+      STC_TITLE = "Burn in progress..."
+      
+      // End of burn
+      IF nEvent IN (burnerNotificationCancel, burnerNotificationError, burnerNotificationEndBurning) THEN
+      	
+      	// Re-enables the controls
+      	IMG_ANIMDVD..Visible 	= False
+      	IMG_ANIMDVD..Animation 	= False
+      	IMG_ANIMDVD				= IMG_ANIMDVD
+      	BTN_BURN..State 		= Active
+      	BTN_EJECT_MEDIA..State = Active
+      	BTN_LIST_FILES..State= Active
+      	BTN_MEDIA_NAME..State		= Active
+      	BTN_ADD_FILE..State	= Active
+      	IMG_MEDIA_TYPE..State 	= Active
+      	STC_TITLE				= "Ready"
+      	STA_INFO 				= ""
+      	PROGBAR_BURN..Visible	= False
+      	
+      	SWITCH nEvent 
+      	
+      		// Abandon
+      		CASE burnerNotificationCancel
+      			Warning("The burn process was canceled")
+      			
+      		// Error	
+      		CASE burnerNotificationError
+      			Error("An error occurred during the burn operation.", sEventMessage)
+      			
+      		// End of burn
+      		CASE burnerNotificationEndBurning
+      			Info("The burn process is over")
+      			
+      	END
+      	
+      	// Restarts the detection
+      	PostMessage(Handle(), "END_BURN", nEvent, 0)
+      	
+      ELSE
+      	
+      	// According to the event
+      	SWITCH nEvent
+      	
+      		// The burner prepares the burn process
+      		CASE burnerNotificationPrepareBurning
+      			STA_INFO = "Preparing..."
+      			
+      			// Displays the progress bar
+      			PROGBAR_BURN..Visible	= True
+      			
+      		// The burner ends the burn process
+      		CASE burnerNotificationCloseCD
+      			STA_INFO = "End of burn..."
+      			
+      			// Hides the progress bar
+      			PROGBAR_BURN..Visible	= False
+      			
+      		// The burner is currently writing
+      		CASE burnerNotificationBurnTrack, burnerNotificationBurnBlock
+      			STA_INFO = "Write operation in progress..."
+      			
+      			// Fills the progress bar
+      			PROGBAR_BURN..Value 	= MyParameters[4]	// Current block/track
+      			PROGBAR_BURN..MaxValue = MyParameters[5]	// Total blocks/tracks
+      			WinRedraw()
+      			
+      		// Unknown event
+      		OTHER CASE
+      			STA_INFO = ""
+      			
+      	END	
+      	
+      END
+     type : 458752
+   -
+     name : Event_EndOfBurn
+     procedure_id : 1760470316836188296
+     type_code : 14
+     code : |1-
+      // Summary: Manages the event for the end of burn
+      // Syntax:
+      // Event_EndOfBurn ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Event_EndOfBurn()
+      
+      // Restarts the detection for CD insertion
+      fDetectRemovableStorage(Event_DetectCDInsertion)
+     type : 458752
+   -
+     name : HideHelp
+     internal_properties : CAAAAAgAAABtuOYF3zJSMpP7aXDBX1xJ6axUJnxeSKIJGTuNWZInWqM5rZAB01Zq032sVpLLHakXbl4bJNBdiqWv2cGhzBrNderAz9ohZSV7RSFDwadIb5UpuryJKUK9jxJqOL663uqtcYY5MN4fia7zw7Ueic7ZfKbBgdAO9rdZHFlofVqdsV3NbAs=
+     procedure_id : 1760470316836253832
+     type_code : 14
+     code : |1-
+      // Summary: Hides the help
+      // Syntax:
+      //HideHelp ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Automatic procedure:
+      // The procedure is run manually, during a call in the code, with a time-out set to 15 seconds
+      // 
+      
+      PROCEDURE HideHelp()
+      
+      GR_HELP..Visible = False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x184fd17a000fdecf
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

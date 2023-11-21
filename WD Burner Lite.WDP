@@ -1,0 +1,103 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Burner Lite
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : The purpose of the project is ...
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAABZYtRqoLZY19O5mI2RuvmysL+HwDmERmBnZkfC7vHrWC1ZdMC91ajxwF0xA95lwwfMVNpWLUx6dfbxBfNjlxR39kNfpXuQ3CwGHZCGaGlY5AC7gV9nJxl9CJJk0m2OG+sdCW10uHoX4IyPWNkG9D0xmhBnYFtKdo0Cz/Ag7+hCldU8K8K4oxZCJYVJA4PhGv8ElAjle8JumHCCRH+23S2OFLRMwbGoxT4fWqLSnruSIotcP3WBUQuPA7FgnbjLSEdHIKKwnXABD5EG5c538Rn0piI/D0G6mly24xv85anJ8OR5TSZwWUXn+B8TpnHzEFsvNNG6KRIX01BFgGeOj6cO+1faV/5ibCRaapBT1kwZU8IeAHw1IN50mF5W2Kd0TV/LjXPYDFObqD17yC/asocUeE0oO6cfszbvVSgfDO6lcSi7eAXX3Mh+IaqqWFhAzNGRLEpIiPF4jTEMnOXiiFyzc1DJ5p4iBFAPYxja9NESXv4dZJ9bKHg2Krw4XKTrMM6UasXZK/D1IGrcOQM5IdkGrTLPMoXY9odcVfEGqHgDfQs3wDxN0t+CG8UNH1UXZ4YcOye6XjPyncpuwd8U0udpgJH+sLLiM054GpAxJH1bsPWwpfDbHYRxN0UqOiUgWqkYKRN9fUmJbZpuTvaeHSfLQDcs2bWqWosRJzNM4VLqVguyYwSBLrtV7kbS8zMaJUuC8JZGdJQqsXc1Vz3YcUjxPelwFQjIHz/URbWfGq9fkCgIMxX8t5BQSv9ijJgKZAMF/P3H9KtqpGo56rjdXcuF3lza0ArZprjjHzjvI2iZsuG2UgVr/szyoBcfIDU7JuPamKjv8gaOQ4SUkqQWv3uQKWT01Ifs0xr14VrTMCA7gD8Q5vqzUph2WbJuW8m7VD3YI5J0FfpltINVUxzLXegUzx2TK3GedgDKAogwTWkBkVoM4lo5kZ2PRkJ9CJeOB+ne3PWqHvuHvXJwYg2grJGghz092VGRHqjL5AUmyVB0HTehU0VTynTCNCwqEIFHRCJ7PXdmTtKz5IVQGPM4b/WPG9RN1uHxAL/R4ATTW9h0QOlsnAm0+zZdgVeBu3bXokcwaZ+wmhkb4wbav+GhqZpJVLxg8JMUgHHHo0X1JMnCarBF7Ziox772tU275jremLDfX2T29XVVSSsg8Lg2QcUlFIPsZb+JpO2Oub7lVHNLq8iYVSu8J4RNsQixR0zmE133d65iV9YKc0bTd/3cCgtMgJL4CxmOcnk+hpA4ag5QiTG0Ooay1pwiLJ5hPuByZivttrDg7LUXEW8OCWa9CXCuByyoBu9F3PsNN4Vrhk56/SHlyhe5KEb0wfp6QlEqy6Ydu9IIgZcDX5h3PSJiKsyp/lOxRwU4lE7LbDH/3PRDPsHjY88LkFpd95X0nM83m3vol2DV+ahG1CJlqzGccDV7Hq8KFkM2DDsR95AQhHzGOT5ka4pgUml0eh18D2QcOMP0wj11yCpgtpbiwYvWBuO20JR/J24j0W7aLmiR2RgeoJHHIqOmZtLHC1JNSaNDq8oZHoMopiuyq41T27FbB6ta1+Or1lh3R/yFVxo2Gac3cORf+FInelaOsH4mDRTJumkY86h0yXlRijIyDZz/CtzbkPWRQ12nt29+yzcO6TX3Fb/erdunRiUMvufjS0jCUTS6T+iMR/i42+r3nLYZB7uL9QfazUNnaAir7sfJaPNi9BfESgqkYe8dTCw+gCEu1YR9GyjBWn7iO4AZEgEuq9/OARDpTDTQiGIsUhzbrrRN8771847h7Z1KQI7CjhmtEgv9ycs5pz3NHCQG33L9V1oHhhG0NhzlLHLoHOn3kt386xw1qy0duofcuGiQ6Nj0RPVWFsrBnQex7dJwY8AT/O5e7zwQOZLbSbmp5kJvlgCNxgXyArB2vISFDR+JJWSAFTUNUpNg98GX9aWJJvfcVhiHxSOjdDL2UNE=
+ configurations :
+  -
+    name : WD Burner Lite
+    internal_properties : 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
+    configuration_id : 9646861089211600078
+    type : 1
+    generation_name : WD Burner Lite.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\burn.ico
+    language : 2
+    telemetry :
+     status : disabled
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAAAGno6qH0JVBtQb1f/H+Ik6ZrLnSmxbifLuEsEswsIBPTr3KHLYfPi+Afsy/duOACNWjArxE1xZz8Fr
+ elements :
+  identifier : 0x4ac47bd5000b4f6b
+  elements :
+   -
+     name : Global procedures of WD Burner Lite
+     identifier : 0x484fd1740000c740
+     internal_properties : CAAAAAgAAABt6UVZZtNbBNOilwo9x5gxlcYwMB+Sb/ZOi8/68Tdf8cfFyGhTqH99fKYQ6KhYIJB4+A==
+     physical_name : .\Global procedures of WD Burner Lite.wdg
+     type : 7
+   -
+     name : WIN_DOCK_BURNER
+     identifier : 0x484fd21900014ce1
+     internal_properties : CAAAAAgAAABZNQEFop+XmKcm+37R6vyN+agA6GFslAqKmDiZWt40xDSsJYs/hFNRADqkHOQc5NQ8xA==
+     physical_name : .\WIN_DOCK_BURNER.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Images\type-bluray.png
+   -
+     physical_name : .\Images\type-cd.png
+   -
+     physical_name : .\Images\type-cda.png
+   -
+     physical_name : .\Images\type-dvd.png
+   -
+     physical_name : .\Images\folder.gif
+   -
+     physical_name : .\Images\file.gif
+   -
+     physical_name : .\Images\burner-ready.png
+   -
+     physical_name : .\Images\burner-empty.png
+   -
+     physical_name : .\Images\CD.gif
+   -
+     physical_name : .\description.rtf
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAAC1UqkAoAbWFBGc/JDF6CqeUvBplOTNFSUeP94GPBAuphpq7adClGqIdmdpWDLbJVcOn6MWzCjW/JJXaetN+zSn19w/d/kwUxrBLXNryrSvnCvvQbtoHqS1
+  type_code : 0
+  p_codes :
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Burner Lite
+     identifier : 0x4ac47bd6000e50f1
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
